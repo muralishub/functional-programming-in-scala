@@ -4,7 +4,7 @@
 		module="functional-programming-in-scala_2.12"
 		revision="1.0"
 		status="integration"
-		publication="20161103061240"
+		publication="20161108052915"
 	>
 		<description>
 		functional-programming-in-scala
@@ -34,5 +34,6 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.0" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.0" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.0.0" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>
