@@ -27,6 +27,8 @@ class ChapterTwoTest extends FunSpec{
       m.isSorted(Array(1, 2, 3, 4), (x: Int, y: Int) => if(x <= y) true else false) shouldBe true
       m.isSorted(Array(1, 2, 2, 4), (x: Int, y: Int) => if(x <= y) true else false) shouldBe true
       m.isSorted(Array(1, 2, 5, 2), (x: Int, y: Int) => if(x <= y) true else false) shouldBe false
+      m.isSorted(Array("mike", "abc", "abcd"), (x: String, y: String) => if(x <= y) true else false) shouldBe false
+      m.isSorted(Array("abc", "mike"), (x: String, y: String) => if(x <= y) true else false) shouldBe true
     }
 
   }
