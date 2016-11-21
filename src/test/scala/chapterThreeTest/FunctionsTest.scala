@@ -37,7 +37,11 @@ class FunctionsTest extends FunSpec{
       function.drop(List(), 2) shouldBe List()
     }
 
+    it("drop while List matches a predicate") {
+      val function = new Functions
 
+      function.dropWhile(List(1, 2, 3), (x: Int) => if(x == 2) true else false) shouldBe List(3)
+    }
 
 
 

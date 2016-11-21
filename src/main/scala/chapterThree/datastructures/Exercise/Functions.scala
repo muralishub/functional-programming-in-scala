@@ -33,6 +33,16 @@ class Functions {
        }
     }
   }
+
+  def dropWhile[A](l: List[A], f: A => Boolean): List[A] = {
+    def loop(list: List[A], n: Int): List[A] = list match {
+      case Cons(head, tail) => if(f(head)) tail else loop(tail, n + 1)
+      case Nil => List()
+    }
+    loop(l,0)
+  }
+
+
 }
 
 
