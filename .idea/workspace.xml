@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="278ce1b0-0bb7-4a9e-a1bb-88f3e4fb41bd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/chapter/three/samples/RecursionAndGeneralization.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/chapter.threeTests/ExerciseTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/chapter.threeTests/ExerciseTest.scala" />
     </list>
     <ignored path="functional-programming-in-scala.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,7 +85,7 @@
       <file leaf-file-name="List.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/chapter/three/samples/List.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
+            <state relative-caret-position="450">
               <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
               <folding />
             </state>
@@ -147,8 +145,8 @@
       <file leaf-file-name="ExerciseTest.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/chapter.threeTests/ExerciseTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="659">
-              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <state relative-caret-position="719">
+              <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
               <folding>
                 <element signature="e#26#48#0" expanded="true" />
               </folding>
@@ -1175,7 +1173,7 @@
       <workItem from="1479708708786" duration="2677000" />
       <workItem from="1479792554541" duration="6195000" />
       <workItem from="1479878545819" duration="4843000" />
-      <workItem from="1479962663622" duration="6193000" />
+      <workItem from="1479962663622" duration="6251000" />
     </task>
     <task id="LOCAL-00001" summary="chapter-2: isSorted">
       <created>1479104856108</created>
@@ -1205,7 +1203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1479965336755</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="re-arrange project&#10;">
+      <created>1479971522705</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1479971522705</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1241,7 +1246,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65301000" />
+    <option name="totallyTimeSpent" value="65359000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="54" width="1615" height="1026" extended-state="6" />
@@ -1480,7 +1485,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/chapter/three/samples/List.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
+        <state relative-caret-position="450">
           <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
           <folding />
         </state>
@@ -1504,8 +1509,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/chapter.threeTests/ExerciseTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        <state relative-caret-position="719">
+          <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
           <folding>
             <element signature="e#26#48#0" expanded="true" />
           </folding>
