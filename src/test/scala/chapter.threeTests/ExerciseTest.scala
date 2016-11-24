@@ -56,6 +56,8 @@ class ExerciseTest extends FunSpec {
       function.init(List(1, 2, 3, 4, 5)) shouldBe List(1, 2, 3, 4)
     }
 
+
+
   }
 
 }
