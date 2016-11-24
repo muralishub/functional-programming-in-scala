@@ -1,12 +1,13 @@
-package chaptertwotest
+package chaptertwotests
 
-import chapetertwo.{FibonacciNumber, IsSorted}
+import chapeter.two.exercises.IsSorted
+import chapeter.two.exercises.{FibonacciNumber, IsSorted}
 import org.scalatest.FunSpec
 import org.scalatest.Matchers._
 /**
   * Created by mraju on 08/11/16.
   */
-class ChapterTwoTest extends FunSpec{
+class ExerciseTest extends FunSpec{
 
   describe("Fibonacci Number") {
     it("returns correct n") {

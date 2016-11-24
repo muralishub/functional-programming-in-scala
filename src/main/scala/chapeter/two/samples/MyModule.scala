@@ -1,4 +1,4 @@
-package chapetertwo
+package chapeter.two.samples
 
 /**
   * Created by mraju on 09/11/16.

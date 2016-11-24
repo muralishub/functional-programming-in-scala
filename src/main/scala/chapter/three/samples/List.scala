@@ -1,4 +1,6 @@
-package chapterThree.datastructures
+package chapter.three.samples
+
+
 
 
 sealed trait List[+A]
@@ -23,6 +25,7 @@ object List {
   }
 
   def apply[A](as: A*): List[A] =
+
     if (as.isEmpty) Nil
     else Cons(as.head, apply(as.tail: _*))
 

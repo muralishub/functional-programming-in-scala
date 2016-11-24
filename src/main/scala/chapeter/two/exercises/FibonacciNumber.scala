@@ -1,5 +1,4 @@
-package chapetertwo
-
+package chapeter.two.exercises
 
 /**
   * Created by mraju on 08/11/16.
