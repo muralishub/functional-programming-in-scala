@@ -1,4 +1,4 @@
-package chapterThreeTest
+package chapter.threeTests
 
 import chapter.three._
 import chapter.three.exercises.Functions
@@ -55,6 +55,69 @@ class ExerciseTest extends FunSpec {
       val function = new Functions
       function.init(List(1, 2, 3, 4, 5)) shouldBe List(1, 2, 3, 4)
     }
+
+    //Example 3.8
+    it("what happens when you pass Nil and Cons themselves to foldRight") {
+      val foo = new RecursionAndGeneralization
+      val result = foo.foldRight(List(1, 2, 3), Nil: List[Int])(Cons(_, _))
+      result shouldBe Cons(1, Cons(2, Cons(3, Nil)))
+    }
+
+    //Example 3.9
+    it("length of a list using foldRight") {
+      val foo = new Functions
+      foo.length(List(1, 2,3)) shouldBe 3
+      foo.length(List(1, 2,3,4, 5)) shouldBe 5
+      foo.length(Nil) shouldBe 0
+    }
+    //   //Exercise 3.10
+    it("fold left in tail racursive to avoid tail recursive") {
+      val foo = new Functions
+      foo.foldLeft(List(1, 2, 3), 0)(_ + _) shouldBe 6
+      foo.foldLeft(List(1, 2, 3, 2), 1)(_ * _) shouldBe 12
+    }
+    //Exercise 3.11
+    describe("using foldleft") {
+      val foo = new Functions
+
+      it("sum works") {
+        foo.sum(List(5, 4,3)) shouldBe 12
+      }
+
+      it("product works") {
+        foo.product(List(4, 5)) shouldBe 20
+      }
+
+      it("length works") {
+        foo.lengthUsingFoldLeft(List(8, 9)) shouldBe 2
+        foo.lengthUsingFoldLeft(List(8, 9, 10, 8)) shouldBe 4
+        foo.lengthUsingFoldLeft(List()) shouldBe 0
+
+      }
+    }
+
+    //Exercise 3.12 :  reverse a list
+
+    it("returns reverse of list") {
+      val foo = new Functions
+      foo.reverse(List(1, 2, 3)) shouldBe List(3, 2, 1)
+      foo.reverse(List(5, 4, 3, 2, 1)) shouldBe List(1, 2, 3, 4, 5)
+      foo.reverse(List()) shouldBe List()
+
+    }
+
+    //Exercise 3.13 foldright using foldleft
+
+    it("foldRight using foldLeft") {
+      val foo =  new Functions
+      foo.foldRightViaFoldLeft(List(1, 2, 3), 0)(_ + _) shouldBe 6
+    }
+
+    it("foldLeft using foldRight") {
+      val foo =  new Functions
+      foo.foldLeftViafoldRight(List(1, 2, 3), 0)(_ + _) shouldBe 6
+    }
+
 
 
 

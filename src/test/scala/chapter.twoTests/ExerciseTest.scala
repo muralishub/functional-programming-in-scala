@@ -1,4 +1,4 @@
-package chaptertwotests
+package chapter.twoTests
 
 import chapeter.two.exercises.IsSorted
 import chapeter.two.exercises.{FibonacciNumber, IsSorted}
