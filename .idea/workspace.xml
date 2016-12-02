@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="278ce1b0-0bb7-4a9e-a1bb-88f3e4fb41bd" name="Default" comment="foldright&#10;&#10;">
+    <list default="true" id="278ce1b0-0bb7-4a9e-a1bb-88f3e4fb41bd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/chapter/three/exercises/Functions.scala" afterPath="$PROJECT_DIR$/src/main/scala/chapter/three/exercises/Functions.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/chapter.threeTests/ExerciseTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/chapter.threeTests/ExerciseTest.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/chapter.twoTests/ExerciseTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/chapter.twoTests/ExerciseTest.scala" />
     </list>
     <ignored path="functional-programming-in-scala.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Functions.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Functions.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/chapter/three/exercises/Functions.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+            <state relative-caret-position="463">
+              <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -85,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExerciseTest.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ExerciseTest.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/chapter.threeTests/ExerciseTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="117" column="31" selection-start-line="117" selection-start-column="31" selection-end-line="117" selection-end-column="31" />
+            <state relative-caret-position="478">
+              <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -98,11 +97,9 @@
       <file leaf-file-name="ExerciseTest.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/chapter.twoTests/ExerciseTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
+            <state relative-caret-position="525">
               <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding>
-                <element signature="e#26#64#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -162,8 +159,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/chapter/three/samples/RecursionAndGeneralization.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/chapter/three/samples/List.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/chapter.twoTests/ExerciseTest.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/chapter.threeTests/ExerciseTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/chapter/three/exercises/Functions.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/chapter.threeTests/ExerciseTest.scala" />
       </list>
     </option>
   </component>
@@ -204,8 +201,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -390,7 +386,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -408,7 +405,7 @@
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunManager" selected="ScalaTest.ExerciseTest.In Function foldLeft using foldRight">
+  <component name="RunManager" selected="ScalaTest.ExerciseTest.In Function appped using foldRight">
     <configuration default="false" name="FunctionsTest.In Function drop while List matches a predicate" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="functional-programming-in-scala" />
@@ -420,21 +417,6 @@
       <setting name="searchForTest" value="Across module dependencies" />
       <setting name="testName" value="In Function drop while List matches a predicate" />
       <setting name="testKind" value="Test name" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="FunctionsTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="functional-programming-in-scala" />
-      <setting name="path" value="chapterThreeTest.FunctionsTest" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
       <setting name="showProgressMessages" value="true" />
       <envs />
       <method />
@@ -479,6 +461,21 @@
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
       <setting name="testName" value="In Function foldLeft using foldRight" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExerciseTest.In Function appped using foldRight" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="functional-programming-in-scala" />
+      <setting name="path" value="chapter.threeTests.ExerciseTest" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="In Function appped using foldRight" />
       <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <envs />
@@ -1005,18 +1002,18 @@
       <item index="0" class="java.lang.String" itemvalue="Application.MyModule" />
       <item index="1" class="java.lang.String" itemvalue="SBT Task.Unnamed" />
       <item index="2" class="java.lang.String" itemvalue="ScalaTest.FunctionsTest.In Function drop while List matches a predicate" />
-      <item index="3" class="java.lang.String" itemvalue="ScalaTest.FunctionsTest" />
-      <item index="4" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function foldRight using foldLeft" />
-      <item index="5" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function returns reverse of list" />
-      <item index="6" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function foldLeft using foldRight" />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function foldRight using foldLeft" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function returns reverse of list" />
+      <item index="5" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function foldLeft using foldRight" />
+      <item index="6" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function appped using foldRight" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function foldLeft using foldRight" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function foldRight using foldLeft" />
-        <item index="2" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function returns reverse of list" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.FunctionsTest.In Function drop while List matches a predicate" />
-        <item index="4" class="java.lang.String" itemvalue="ScalaTest.FunctionsTest" />
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function appped using foldRight" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function foldLeft using foldRight" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function foldRight using foldLeft" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function returns reverse of list" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.FunctionsTest.In Function drop while List matches a predicate" />
       </list>
     </recent_temporary>
   </component>
@@ -1093,7 +1090,8 @@
       <workItem from="1479962663622" duration="6305000" />
       <workItem from="1480133415300" duration="227000" />
       <workItem from="1480313340329" duration="1326000" />
-      <workItem from="1480397262357" duration="5240000" />
+      <workItem from="1480397262357" duration="5316000" />
+      <workItem from="1480652448354" duration="5750000" />
     </task>
     <task id="LOCAL-00001" summary="chapter-2: isSorted">
       <created>1479104856108</created>
@@ -1137,12 +1135,19 @@
       <option name="project" value="LOCAL" />
       <updated>1479971588922</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="foldRight using foldLeft and foldLeft using foldRight&#10;&#10;&#10;">
+      <created>1480403453368</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1480403453368</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExerciseTest_In_Function_foldLeft_using_foldRight - 2016.11.29 at 07h 09m 10s.xml">
-      <configuration name="ExerciseTest.In Function foldLeft using foldRight" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ExerciseTest_In_Function_appped_using_foldRight - 2016.12.02 at 04h 46m 24s.xml">
+      <configuration name="ExerciseTest.In Function appped using foldRight" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
     <history-entry file="ExerciseTest_In_Function_foldLeft_using_foldRight - 2016.11.29 at 07h 09m 21s.xml">
       <configuration name="ExerciseTest.In Function foldLeft using foldRight" configurationId="ScalaTestRunConfiguration" />
@@ -1173,7 +1178,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72206000" />
+    <option name="totallyTimeSpent" value="78032000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="54" width="1615" height="1026" extended-state="6" />
@@ -1187,8 +1192,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3261105" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1197,8 +1202,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997155" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1223,7 +1228,8 @@
     <MESSAGE value="chapter-3: dropWhile" />
     <MESSAGE value="re-arrange project&#10;" />
     <MESSAGE value="foldright&#10;&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="foldright&#10;&#10;" />
+    <MESSAGE value="foldRight using foldLeft and foldLeft using foldRight&#10;&#10;&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="foldRight using foldLeft and foldLeft using foldRight&#10;&#10;&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1247,9 +1253,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-          <folding>
-            <element signature="e#26#64#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1286,9 +1290,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#26#64#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1305,9 +1307,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#26#64#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1391,11 +1391,9 @@
     <entry file="file://$PROJECT_DIR$/src/test/test/scala/chapter.twoTests/ExerciseTest.scala" />
     <entry file="file://$PROJECT_DIR$/src/test/scala/chapter.twoTests/ExerciseTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
+        <state relative-caret-position="525">
           <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="e#26#64#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1407,18 +1405,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/chapter.threeTests/ExerciseTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/chapter/three/exercises/Functions.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="117" column="31" selection-start-line="117" selection-start-column="31" selection-end-line="117" selection-end-column="31" />
+        <state relative-caret-position="463">
+          <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/chapter/three/exercises/Functions.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/chapter.threeTests/ExerciseTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="478">
-          <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+          <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
           <folding />
         </state>
       </provider>

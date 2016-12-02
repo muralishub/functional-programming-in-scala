@@ -121,6 +121,12 @@ class Functions {
   }
 
 
+  //Exercise 3.14 Implement append in terms of foldLeft or foldRight
+
+//  def appendUsingfoldRight[A, B](a: List[A], b: List[B])(f: (A, B) => B): B = {
+//    foldRight(a,b)((A, B) => B)
+//  }
+
 
 
 }

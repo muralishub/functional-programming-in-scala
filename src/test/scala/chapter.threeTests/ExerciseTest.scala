@@ -118,6 +118,11 @@ class ExerciseTest extends FunSpec {
       foo.foldLeftViafoldRight(List(1, 2, 3), 0)(_ + _) shouldBe 6
     }
 
+    //Exercise 3.14 Implement append using foldRight
+//    it("appped using foldRight") {
+//      val foo = new Functions
+//      foo.appendUsingfoldRight(List(1, 2), List(3, 4))((x: Int, y: List[Int]) => Cons(x, y)) shouldBe List(1, 2, 3, 4)
+//    }
 
 
 
