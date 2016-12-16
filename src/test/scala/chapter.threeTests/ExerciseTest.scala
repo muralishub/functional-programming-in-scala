@@ -71,7 +71,7 @@ class ExerciseTest extends FunSpec {
       foo.length(Nil) shouldBe 0
     }
     //   //Exercise 3.10
-    it("fold left in tail racursive to avoid tail recursive") {
+    it("fold left in tail racursive to avoid stack overflow") {
       val foo = new Functions
       foo.foldLeft(List(1, 2, 3), 0)(_ + _) shouldBe 6
       foo.foldLeft(List(1, 2, 3, 2), 1)(_ * _) shouldBe 12
@@ -96,6 +96,8 @@ class ExerciseTest extends FunSpec {
       }
     }
 
+
+
     //Exercise 3.12 :  reverse a list
 
     it("returns reverse of list") {
@@ -118,11 +120,16 @@ class ExerciseTest extends FunSpec {
       foo.foldLeftViafoldRight(List(1, 2, 3), 0)(_ + _) shouldBe 6
     }
 
-    //Exercise 3.14 Implement append using foldRight
-//    it("appped using foldRight") {
-//      val foo = new Functions
-//      foo.appendUsingfoldRight(List(1, 2), List(3, 4))((x: Int, y: List[Int]) => Cons(x, y)) shouldBe List(1, 2, 3, 4)
-//    }
+  //  Exercise 3.14 Implement append using foldRight
+    it("appped using foldRight") {
+      val foo = new Functions
+      foo.appendUsingfoldRight(List(1, 2), List(3, 4)) shouldBe List(1, 2, 3, 4)
+    }
+
+    it("appped using foldLeft") {
+      val foo = new Functions
+      foo.appendUsingfoldRight(List(1, 2), List(3, 4)) shouldBe List(1, 2, 3, 4)
+    }
 
 
 
