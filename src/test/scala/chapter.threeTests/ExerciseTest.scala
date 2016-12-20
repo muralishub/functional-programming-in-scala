@@ -76,6 +76,15 @@ class ExerciseTest extends FunSpec {
       foo.foldLeft(List(1, 2, 3), 0)(_ + _) shouldBe 6
       foo.foldLeft(List(1, 2, 3, 2), 1)(_ * _) shouldBe 12
     }
+
+    it("fold right recursive") {
+      val foo = new Functions
+      foo.foldLeft(List(1, 2, 3), 0)(_ + _) shouldBe 6
+      foo.foldLeft(List(1, 2, 3, 2), 1)(_ * _) shouldBe 12
+    }
+
+
+
     //Exercise 3.11
     describe("using foldleft") {
       val foo = new Functions
@@ -95,6 +104,7 @@ class ExerciseTest extends FunSpec {
 
       }
     }
+
 
 
 

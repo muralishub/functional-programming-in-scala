@@ -84,53 +84,65 @@ class Functions {
     loop(as, z, f)
   }
 
-    def foldRight[A, B](as: List[A], z: B)(f: (A, B) => B): B =
-      as match {
+  def foldRight[A, B](as: List[A], z: B)(f: (A, B) => B): B =
+    as match {
+      case Nil => z
+      case Cons(x, xs) => f(x, foldRight(xs, z)(f))
+    }
+
+  def foldRighRecursive[A, B](as: List[A], z: B)(f: (A, B) => B): B = {
+    def loop(a: List[A], z: B, f: (A, B) => B): B = {
+      a match {
         case Nil => z
-        case Cons(x, xs) => f(x, foldRight(xs, z)(f))
+        case Cons(x, xs) => loop(xs, f(x, z), f)
       }
 
-  //Exercise 3.11 : write sum, product and get the length using foldLeft
-
-  def sum(list: List[Int]): Int = {
-    foldLeft(list, 0)((x , y) => x + y)
-  }
-
-  def product(list: List[Int]): Int = {
-    foldLeft(list, 1)(_ * _)
-  }
-
-  def lengthUsingFoldLeft(list: List[Int]): Int = {
-    foldLeft(list, 0)((x, y) => x + 1)
-  }
-
-  //Exercise 3.12: write reverse of a list
-
-  def reverse[A](list: List[A]): List[A] = {
-    foldLeft(list, List[A]())((x, y) => Cons(y, x))
-  }
-
-  //Exercise 3.13: Impliment foldright via foldleft
-
-  def foldRightViaFoldLeft[A, B](as: List[A], z: B)(f: (A, B) => B): B = {
-    foldLeft(reverse(as), z)((b,a) => f(a,b))
-  }
-
-  def foldLeftViafoldRight[A, B](as: List[A], z: B)(f: (B, A) => B): B = {
-    foldRight(reverse(as), z)((A, B) => f(B, A))
+    }
+    loop(as, z, f)
   }
 
 
-  //Exercise 3.14 Implement append in terms of foldLeft or foldRight
-
-  def appendUsingfoldRight[A](a: List[A], b: List[A]): List[A] =  foldRight(a, b)((x, y) => Cons(x, y))
-
-  def appendUsingfoldLeft[A](a: List[A], b: List[A]): List[A] = foldLeft(b, a)((x, y) => Cons(y, x))
 
 
+    //Exercise 3.11 : write sum, product and get the length using foldLeft
+
+    def sum(list: List[Int]): Int = {
+      foldLeft(list, 0)((x, y) => x + y)
+    }
+
+    def product(list: List[Int]): Int = {
+      foldLeft(list, 1)(_ * _)
+    }
+
+    def lengthUsingFoldLeft(list: List[Int]): Int = {
+      foldLeft(list, 0)((x, y) => x + 1)
+    }
+
+    //Exercise 3.12: write reverse of a list
+
+    def reverse[A](list: List[A]): List[A] = {
+      foldLeft(list, List[A]())((x, y) => Cons(y, x))
+    }
+
+    //Exercise 3.13: Impliment foldright via foldleft
+
+    def foldRightViaFoldLeft[A, B](as: List[A], z: B)(f: (A, B) => B): B = {
+      foldLeft(reverse(as), z)((b, a) => f(a, b))
+    }
+
+    def foldLeftViafoldRight[A, B](as: List[A], z: B)(f: (B, A) => B): B = {
+      foldRight(reverse(as), z)((A, B) => f(B, A))
+    }
 
 
-}
+    //Exercise 3.14 Implement append in terms of foldLeft or foldRight
+
+    def appendUsingfoldRight[A](a: List[A], b: List[A]): List[A] = foldRight(a, b)((x, y) => Cons(x, y))
+
+    def appendUsingfoldLeft[A](a: List[A], b: List[A]): List[A] = foldLeft(b, a)((x, y) => Cons(y, x))
+
+
+  }
 
 
 
