@@ -30,12 +30,8 @@ object MyModule {
   def main(args: Array[String]): Unit = {
     println(formatAbs(-42))
     println(formatFactorial(7))
-
-
     formatResult("absolute value", -42, abs)
     formatResult("factorial", 7, factorial)
-
-
   }
 
 

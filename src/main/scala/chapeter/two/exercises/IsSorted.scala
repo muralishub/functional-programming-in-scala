@@ -5,6 +5,7 @@ package chapeter.two.exercises
   */
 class IsSorted {
 
+  //Exercise 2.2 issorted for a given list
   def isSorted[A](as: Array[A], ordered: (A, A) => Boolean): Boolean = {
 
     def loop(n: Int): Boolean = {

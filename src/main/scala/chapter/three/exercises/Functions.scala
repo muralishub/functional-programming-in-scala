@@ -8,6 +8,7 @@ import chapter.three.samples._
   */
 class Functions {
 
+  //Exercise 3.2 remove first element of list
   def tail[A](list: List[A]): List[A] =
 
     list match {
@@ -15,7 +16,7 @@ class Functions {
       case _ => Nil
     }
 
-
+//Exercise 3.3 replace first element for a list
   def setHead[A](list: List[A], element: A): List[A] =
 
     list match {
@@ -23,7 +24,7 @@ class Functions {
       case Cons(head, tail) => Cons(element, list)
     }
 
-
+//Exercise 3.4 removes first n elements
   def drop[A](l: List[A], n: Int): List[A] = {
 
     if (n == 0) l
@@ -35,6 +36,7 @@ class Functions {
     }
   }
 
+  //Exercise 3.5 remove until it matches a predicate
   def dropWhile[A](list: List[A], f: A => Boolean): List[A] = {
 
     list match {
@@ -52,7 +54,7 @@ class Functions {
     }
   }
 
-  // this doesnt work , use of vectors will be a better solution here
+  //Exercise 3.6: this doesnt work , use of vectors will be a better solution here
   def init[A](l: List[A]): List[A] = {
     l match {
       case Nil => l
@@ -62,7 +64,7 @@ class Functions {
 
   //Example 3.7 : foldright if used for product will return 0.0 if any item in list is 0.0
 
-  //Example 3.9
+  //Example 3.9 length using foldRight
 
   def length[A](as: List[A]): Int = {
     val foo = new RecursionAndGeneralization
@@ -70,9 +72,7 @@ class Functions {
   }
 
   //Exercise 3.10
-
   def foldLeft[A, B](as: List[A], z: B)(f: (B, A) => B): B = {
-
     def loop(a: List[A], z: B, f: (B, A) => B): B = {
       a match {
         case Nil => z
@@ -90,22 +90,7 @@ class Functions {
       case Cons(x, xs) => f(x, foldRight(xs, z)(f))
     }
 
-  def foldRighRecursive[A, B](as: List[A], z: B)(f: (A, B) => B): B = {
-    def loop(a: List[A], z: B, f: (A, B) => B): B = {
-      a match {
-        case Nil => z
-        case Cons(x, xs) => loop(xs, f(x, z), f)
-      }
-
-    }
-    loop(as, z, f)
-  }
-
-
-
-
     //Exercise 3.11 : write sum, product and get the length using foldLeft
-
     def sum(list: List[Int]): Int = {
       foldLeft(list, 0)((x, y) => x + y)
     }
@@ -119,13 +104,11 @@ class Functions {
     }
 
     //Exercise 3.12: write reverse of a list
-
     def reverse[A](list: List[A]): List[A] = {
       foldLeft(list, List[A]())((x, y) => Cons(y, x))
     }
 
     //Exercise 3.13: Impliment foldright via foldleft
-
     def foldRightViaFoldLeft[A, B](as: List[A], z: B)(f: (A, B) => B): B = {
       foldLeft(reverse(as), z)((b, a) => f(a, b))
     }
@@ -136,10 +119,17 @@ class Functions {
 
 
     //Exercise 3.14 Implement append in terms of foldLeft or foldRight
-
     def appendUsingfoldRight[A](a: List[A], b: List[A]): List[A] = foldRight(a, b)((x, y) => Cons(x, y))
-
     def appendUsingfoldLeft[A](a: List[A], b: List[A]): List[A] = foldLeft(b, a)((x, y) => Cons(y, x))
+
+
+    //Exercise 3.15 concact list of lists
+    def concat[A](list: List[List[A]]): List[A] = list match{
+      case Nil => List()
+      case Cons(x, xs) => append(x, concat(xs))
+    }
+
+    //Exercise 3.16 List that returns List by adding 1 to each element
 
 
   }

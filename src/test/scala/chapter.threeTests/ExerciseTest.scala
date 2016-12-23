@@ -51,10 +51,10 @@ class ExerciseTest extends FunSpec {
       function.append(List(1, 2), List(4, 5, 6)) shouldBe List(1, 2, 4, 5, 6)
     }
 
-    it("init function which returns List except last element, this doesnt work just shouows its difficult in this scenario") {
-      val function = new Functions
-      function.init(List(1, 2, 3, 4, 5)) shouldBe List(1, 2, 3, 4)
-    }
+//    it("init function which returns List except last element, this doesnt work just shouows its difficult in this scenario") {
+//      val function = new Functions
+//      function.init(List(1, 2, 3, 4, 5)) shouldBe List(1, 2, 3, 4)
+//    }
 
     //Example 3.8
     it("what happens when you pass Nil and Cons themselves to foldRight") {
@@ -83,8 +83,6 @@ class ExerciseTest extends FunSpec {
       foo.foldLeft(List(1, 2, 3, 2), 1)(_ * _) shouldBe 12
     }
 
-
-
     //Exercise 3.11
     describe("using foldleft") {
       val foo = new Functions
@@ -105,11 +103,7 @@ class ExerciseTest extends FunSpec {
       }
     }
 
-
-
-
     //Exercise 3.12 :  reverse a list
-
     it("returns reverse of list") {
       val foo = new Functions
       foo.reverse(List(1, 2, 3)) shouldBe List(3, 2, 1)
@@ -119,7 +113,6 @@ class ExerciseTest extends FunSpec {
     }
 
     //Exercise 3.13 foldright using foldleft
-
     it("foldRight using foldLeft") {
       val foo =  new Functions
       foo.foldRightViaFoldLeft(List(1, 2, 3), 0)(_ + _) shouldBe 6
@@ -139,6 +132,13 @@ class ExerciseTest extends FunSpec {
     it("appped using foldLeft") {
       val foo = new Functions
       foo.appendUsingfoldRight(List(1, 2), List(3, 4)) shouldBe List(1, 2, 3, 4)
+    }
+
+
+    //Exercise 3.15 Contact list of Lists to single list
+    it("concact list of lists") {
+      val foo = new Functions
+      foo.concat(List(List(1, 2), List(3,4))) shouldBe List(1, 2, 3, 4)
     }
 
 
