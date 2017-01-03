@@ -2,6 +2,8 @@ package chapter.three.exercises
 
 import chapter.three.samples._
 
+import scala.annotation.tailrec
+
 
 /**
   * Created by murali on 17/11/2016.
@@ -72,8 +74,8 @@ class Functions {
   }
 
   //Exercise 3.10
-  def foldLeft[A, B](as: List[A], z: B)(f: (B, A) => B): B = {
-    def loop(a: List[A], z: B, f: (B, A) => B): B = {
+   def foldLeft[A, B](as: List[A], z: B)(f: (B, A) => B): B = {
+  @tailrec  def loop(a: List[A], z: B, f: (B, A) => B): B = {
       a match {
         case Nil => z
         case Cons(x, xs) => {
@@ -130,6 +132,40 @@ class Functions {
     }
 
     //Exercise 3.16 List that returns List by adding 1 to each element
+  def addOne(list: List[Int]): List[Int] = {
+    list match {
+      case Nil => List()
+      case Cons(x, xs) => Cons(x + 1, addOne(xs))
+    }
+  }
+
+  def addOneTailRec(list: List[Int]): List[Int] =
+  {
+   @tailrec def loop(l: List[Int], newList: List[Int]): List[Int] = {
+      l match {
+        case Nil => newList
+        case Cons(x, xs) => loop(xs, Cons(x + 1, newList))
+      }
+    }
+    loop(reverse(list), List())
+  }
+
+  //Exercise 3.17 convert List[Double] to List[String]
+  def doubleToString(list: List[Double]): List[String] = {
+    list match {
+      case Nil => List[String]()
+      case Cons(x, xs) => Cons(x.toString, doubleToString(xs))
+    }
+  }
+
+  //Exercise 3.18 modify each element in a list while maintaining the structure of the list
+  def map[A, B](as: List[A])(f: A => B): List[B] = {
+    as match {
+      case Nil => List[B]()
+      case Cons(x, xs) => Cons(f(x), map(xs)(f))
+    }
+  }
+
 
 
   }

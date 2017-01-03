@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="278ce1b0-0bb7-4a9e-a1bb-88f3e4fb41bd" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/chapeter/two/samples/Currying.scala" afterPath="$PROJECT_DIR$/src/main/scala/chapeter/two/exercises/Currying.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/chapeter/two/exercises/FibonacciNumber.scala" afterPath="$PROJECT_DIR$/src/main/scala/chapeter/two/exercises/FibonacciNumber.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/chapeter/two/exercises/IsSorted.scala" afterPath="$PROJECT_DIR$/src/main/scala/chapeter/two/exercises/IsSorted.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/chapeter/two/samples/MyModule.scala" afterPath="$PROJECT_DIR$/src/main/scala/chapeter/two/samples/MyModule.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/chapter/three/exercises/Functions.scala" afterPath="$PROJECT_DIR$/src/main/scala/chapter/three/exercises/Functions.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/chapter.threeTests/ExerciseTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/chapter.threeTests/ExerciseTest.scala" />
     </list>
@@ -61,21 +57,21 @@
       <file leaf-file-name="Functions.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/chapter/three/exercises/Functions.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="133" column="0" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="403">
+              <caret line="168" column="2" selection-start-line="168" selection-start-column="2" selection-end-line="168" selection-end-column="2" />
+              <folding>
+                <element signature="e#33#63#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.0-sources.jar!/scala/package.scala">
+      <file leaf-file-name="List.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/chapter/three/samples/List.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="55" column="7" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-              </folding>
+            <state relative-caret-position="570">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -83,8 +79,8 @@
       <file leaf-file-name="ExerciseTest.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/chapter.threeTests/ExerciseTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="148" column="0" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+            <state relative-caret-position="427">
+              <caret line="169" column="3" selection-start-line="169" selection-start-column="3" selection-end-line="169" selection-end-column="3" />
               <folding>
                 <element signature="e#28#50#0" expanded="true" />
               </folding>
@@ -267,8 +263,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -493,7 +490,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -511,67 +507,7 @@
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunManager" selected="ScalaTest.ExerciseTest.In Function concact list of lists">
-    <configuration default="false" name="ExerciseTest.In Function appped using foldLeft" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="functional-programming-in-scala" />
-      <setting name="path" value="chapter.threeTests.ExerciseTest" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="In Function appped using foldLeft" />
-      <setting name="testKind" value="Test name" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ExerciseTest.In Function my foldRight" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="functional-programming-in-scala" />
-      <setting name="path" value="chapter.threeTests.ExerciseTest" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="In Function my foldRight" />
-      <setting name="testKind" value="Test name" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ExerciseTest.In Function fold right recursive" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="functional-programming-in-scala" />
-      <setting name="path" value="chapter.threeTests.ExerciseTest" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="In Function fold right recursive" />
-      <setting name="testKind" value="Test name" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ExerciseTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="functional-programming-in-scala" />
-      <setting name="path" value="chapter.threeTests.ExerciseTest" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.ExerciseTest.In Function modify each elemnt of list">
     <configuration default="false" name="ExerciseTest.In Function concact list of lists" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="functional-programming-in-scala" />
@@ -582,6 +518,66 @@
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
       <setting name="testName" value="In Function concact list of lists" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExerciseTest.In Function add one to all elements in a list non recursive" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="functional-programming-in-scala" />
+      <setting name="path" value="chapter.threeTests.ExerciseTest" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="In Function add one to all elements in a list non recursive" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExerciseTest.In Function add one to all elements in a list tail recursive" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="functional-programming-in-scala" />
+      <setting name="path" value="chapter.threeTests.ExerciseTest" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="In Function add one to all elements in a list tail recursive" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExerciseTest.In Function list Int to list Double" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="functional-programming-in-scala" />
+      <setting name="path" value="chapter.threeTests.ExerciseTest" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="In Function list Int to list Double" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExerciseTest.In Function modify each elemnt of list" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="functional-programming-in-scala" />
+      <setting name="path" value="chapter.threeTests.ExerciseTest" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="In Function modify each elemnt of list" />
       <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <envs />
@@ -1107,19 +1103,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Application.MyModule" />
       <item index="1" class="java.lang.String" itemvalue="SBT Task.Unnamed" />
-      <item index="2" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function appped using foldLeft" />
-      <item index="3" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function my foldRight" />
-      <item index="4" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function fold right recursive" />
-      <item index="5" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest" />
-      <item index="6" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function concact list of lists" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function concact list of lists" />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function add one to all elements in a list non recursive" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function add one to all elements in a list tail recursive" />
+      <item index="5" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function list Int to list Double" />
+      <item index="6" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function modify each elemnt of list" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function concact list of lists" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest" />
-        <item index="2" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function fold right recursive" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function my foldRight" />
-        <item index="4" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function appped using foldLeft" />
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function modify each elemnt of list" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function list Int to list Double" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function add one to all elements in a list tail recursive" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function add one to all elements in a list non recursive" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function concact list of lists" />
       </list>
     </recent_temporary>
   </component>
@@ -1206,7 +1202,9 @@
       <workItem from="1481953710041" duration="124000" />
       <workItem from="1482212398932" duration="2626000" />
       <workItem from="1482303427878" duration="333000" />
-      <workItem from="1482475371860" duration="8179000" />
+      <workItem from="1482475371860" duration="9153000" />
+      <workItem from="1482911195275" duration="8635000" />
+      <workItem from="1483426102781" duration="1156000" />
     </task>
     <task id="LOCAL-00001" summary="chapter-2: isSorted">
       <created>1479104856108</created>
@@ -1278,43 +1276,50 @@
       <option name="project" value="LOCAL" />
       <updated>1482217679654</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="chapter3: Exercise 3.15&#10;&#10;&#10;&#10;">
+      <created>1482512040871</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1482512040871</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExerciseTest - 2016.12.23 at 08h 51m 24s.xml">
-      <configuration name="ExerciseTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ExerciseTest_In_Function_add_one_to_all_elements_in_a_list_tail_recursive - 2016.12.28 at 09h 22m 33s.xml">
+      <configuration name="ExerciseTest.In Function add one to all elements in a list tail recursive" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ExerciseTest - 2016.12.23 at 08h 51m 50s.xml">
-      <configuration name="ExerciseTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ExerciseTest_In_Function_add_one_to_all_elements_in_a_list_tail_recursive - 2016.12.28 at 09h 24m 32s.xml">
+      <configuration name="ExerciseTest.In Function add one to all elements in a list tail recursive" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ExerciseTest_In_Function_concact_list_of_lists - 2016.12.23 at 11h 51m 43s.xml">
-      <configuration name="ExerciseTest.In Function concact list of lists" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ExerciseTest_In_Function_add_one_to_all_elements_in_a_list_tail_recursive - 2016.12.28 at 09h 26m 39s.xml">
+      <configuration name="ExerciseTest.In Function add one to all elements in a list tail recursive" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ExerciseTest_In_Function_concact_list_of_lists - 2016.12.23 at 11h 51m 54s.xml">
-      <configuration name="ExerciseTest.In Function concact list of lists" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ExerciseTest_In_Function_add_one_to_all_elements_in_a_list_tail_recursive - 2016.12.28 at 09h 32m 26s.xml">
+      <configuration name="ExerciseTest.In Function add one to all elements in a list tail recursive" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ExerciseTest_In_Function_concact_list_of_lists - 2016.12.23 at 11h 52m 13s.xml">
-      <configuration name="ExerciseTest.In Function concact list of lists" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ExerciseTest_In_Function_add_one_to_all_elements_in_a_list_tail_recursive - 2016.12.28 at 09h 33m 31s.xml">
+      <configuration name="ExerciseTest.In Function add one to all elements in a list tail recursive" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ExerciseTest_In_Function_my_foldRight - 2016.12.16 at 06h 11m 53s.xml">
-      <configuration name="ExerciseTest.In Function my foldRight" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ExerciseTest_In_Function_add_one_to_all_elements_in_a_list_tail_recursive - 2016.12.28 at 09h 34m 25s.xml">
+      <configuration name="ExerciseTest.In Function add one to all elements in a list tail recursive" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ExerciseTest_In_Function_my_foldRight - 2016.12.16 at 06h 14m 31s.xml">
-      <configuration name="ExerciseTest.In Function my foldRight" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ExerciseTest_In_Function_list_Int_to_list_Double - 2016.12.28 at 11h 05m 20s.xml">
+      <configuration name="ExerciseTest.In Function list Int to list Double" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ExerciseTest_In_Function_my_foldRight - 2016.12.16 at 06h 15m 20s.xml">
-      <configuration name="ExerciseTest.In Function my foldRight" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ExerciseTest_In_Function_modify_each_elemnt_of_list - 2017.01.03 at 07h 05m 43s.xml">
+      <configuration name="ExerciseTest.In Function modify each elemnt of list" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ExerciseTest_In_Function_my_foldRight - 2016.12.16 at 06h 15m 37s.xml">
-      <configuration name="ExerciseTest.In Function my foldRight" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ExerciseTest_In_Function_modify_each_elemnt_of_list - 2017.01.03 at 07h 05m 57s.xml">
+      <configuration name="ExerciseTest.In Function modify each elemnt of list" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="FunctionsTest_In_Function_drop_while_List_matches_a_predicate - 2016.11.23 at 06h 07m 48s.xml">
-      <configuration name="FunctionsTest.In Function drop while List matches a predicate" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ExerciseTest_In_Function_modify_each_elemnt_of_list - 2017.01.03 at 07h 06m 09s.xml">
+      <configuration name="ExerciseTest.In Function modify each elemnt of list" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100753000" />
+    <option name="totallyTimeSpent" value="111518000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="54" width="1615" height="1026" extended-state="6" />
@@ -1328,7 +1333,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32444444" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30888888" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1368,7 +1373,8 @@
     <MESSAGE value="chapter3: append with fold right in progress&#10;&#10;&#10;" />
     <MESSAGE value="chapter3: append with fold right and fold left&#10;&#10;&#10;&#10;" />
     <MESSAGE value="chapter3: foldRight tail recursive?&#10;&#10;&#10;&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="chapter3: foldRight tail recursive?&#10;&#10;&#10;&#10;" />
+    <MESSAGE value="chapter3: Exercise 3.15&#10;&#10;&#10;&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapter3: Exercise 3.15&#10;&#10;&#10;&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1477,19 +1483,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/chapterThree/DataStructures.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/chapterThree/datastructures/Functions.scala" />
     <entry file="file://$PROJECT_DIR$/src/test/test/scala/chapter.twoTests/ExerciseTest.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/chapter/three/samples/List.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/chapter/three/samples/RecursionAndGeneralization.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1497,9 +1494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="55" column="7" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1563,10 +1557,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/chapter/three/samples/List.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/chapter.threeTests/ExerciseTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="148" column="0" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+        <state relative-caret-position="427">
+          <caret line="169" column="3" selection-start-line="169" selection-start-column="3" selection-end-line="169" selection-end-column="3" />
           <folding>
             <element signature="e#28#50#0" expanded="true" />
           </folding>
@@ -1575,9 +1577,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/chapter/three/exercises/Functions.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="133" column="0" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="403">
+          <caret line="168" column="2" selection-start-line="168" selection-start-column="2" selection-end-line="168" selection-end-column="2" />
+          <folding>
+            <element signature="e#33#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

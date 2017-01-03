@@ -141,6 +141,30 @@ class ExerciseTest extends FunSpec {
       foo.concat(List(List(1, 2), List(3,4))) shouldBe List(1, 2, 3, 4)
     }
 
+     //Exercise 3.16 Add 1 to all elemets in a list of integers
+    it("add one to all elements in a list non recursive") {
+      val foo = new Functions
+      foo.addOne(List(1, 2, 3)) shouldBe List(2, 3, 4)
+    }
+
+    it("add one to all elements in a list tail recursive") {
+      val foo = new Functions
+      foo.addOneTailRec(List(1, 2, 3)) shouldBe List(2, 3, 4)
+    }
+
+    //Exercise 3.17 Convet List[Int] to List[String]
+    it("list Int to list Double") {
+      val foo  = new Functions
+      foo.doubleToString(List(1.2, 2.3, 5.0)) shouldBe List("1.2", "2.3", "5.0")
+
+    }
+
+    //Exercise 3.18 Modify each element of list while maintaing the structure
+    it("modify each elemnt of list") {
+      val foo = new Functions
+      foo.map(List(1, 2))(x => x + 1) shouldBe List(2, 3)
+      
+    }
 
 
   }
