@@ -160,7 +160,7 @@ class ExerciseTest extends FunSpec {
     }
 
     //Exercise 3.18 Modify each element of list while maintaing the structure
-    it("modify each elemnt of list") {
+    it("modify each element of list") {
       val foo = new Functions
       foo.map(List(1, 2))(x => x + 1) shouldBe List(2, 3)
       
