@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="278ce1b0-0bb7-4a9e-a1bb-88f3e4fb41bd" name="Default" comment="chapter3: Exercise 3.15&#10;&#10;&#10;&#10;">
+    <list default="true" id="278ce1b0-0bb7-4a9e-a1bb-88f3e4fb41bd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/chapter/three/exercises/Functions.scala" afterPath="$PROJECT_DIR$/src/main/scala/chapter/three/exercises/Functions.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/chapter.threeTests/ExerciseTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/chapter.threeTests/ExerciseTest.scala" />
     </list>
     <ignored path="functional-programming-in-scala.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,8 +78,8 @@
       <file leaf-file-name="ExerciseTest.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/chapter.threeTests/ExerciseTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="e#28#50#0" expanded="true" />
               </folding>
@@ -1067,7 +1065,14 @@
       <option name="project" value="LOCAL" />
       <updated>1482512040871</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="chapter3: Exercise 3.18&#10;&#10;&#10;&#10;">
+      <created>1483537715409</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1483537715409</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1158,7 +1163,8 @@
     <MESSAGE value="chapter3: append with fold right and fold left&#10;&#10;&#10;&#10;" />
     <MESSAGE value="chapter3: foldRight tail recursive?&#10;&#10;&#10;&#10;" />
     <MESSAGE value="chapter3: Exercise 3.15&#10;&#10;&#10;&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="chapter3: Exercise 3.15&#10;&#10;&#10;&#10;" />
+    <MESSAGE value="chapter3: Exercise 3.18&#10;&#10;&#10;&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapter3: Exercise 3.18&#10;&#10;&#10;&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1351,8 +1357,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/chapter.threeTests/ExerciseTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="e#28#50#0" expanded="true" />
           </folding>

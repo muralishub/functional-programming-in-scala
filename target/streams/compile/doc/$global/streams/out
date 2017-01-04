@@ -1,0 +1,18 @@
+[0m[[0minfo[0m] [0mMain Scala API documentation to /Users/murali/Projects/functional-programming-in-scala/target/scala-2.12/api...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.12.0[0m
+[0m[[0mdebug[0m] [0mCalling Scaladoc with arguments:[0m
+[0m[[0mdebug[0m] [0m	-d[0m
+[0m[[0mdebug[0m] [0m	/Users/murali/Projects/functional-programming-in-scala/target/scala-2.12/api[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/classes:/Users/murali/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.0.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	dummy_763917b8[0m
+[0m[[0mdebug[0m] [0m	/Users/murali/Projects/functional-programming-in-scala/src/main/scala/chapeter/two/exercises/FibonacciNumber.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/murali/Projects/functional-programming-in-scala/src/main/scala/chapeter/two/exercises/IsSorted.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/murali/Projects/functional-programming-in-scala/src/main/scala/chapeter/two/exercises/PolymorphicFunction.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/murali/Projects/functional-programming-in-scala/src/main/scala/chapeter/two/samples/Currying.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/murali/Projects/functional-programming-in-scala/src/main/scala/chapeter/two/samples/MyModule.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/murali/Projects/functional-programming-in-scala/src/main/scala/chapter/three/exercises/Functions.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/murali/Projects/functional-programming-in-scala/src/main/scala/chapter/three/samples/List.scala[0m
+[0m[[0mdebug[0m] [0m	/Users/murali/Projects/functional-programming-in-scala/src/main/scala/chapter/three/samples/RecursionAndGeneralization.scala[0m
+[0m[[0minfo[0m] [0mMain Scala API documentation successful.[0m
