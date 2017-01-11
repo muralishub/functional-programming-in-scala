@@ -160,12 +160,13 @@ class Functions {
 
   //Exercise 3.18 modify each element in a list while maintaining the structure of the list
   def map[A, B](as: List[A])(f: A => B): List[B] = {
-    as match {
-      case Nil => List[B]()
-      case Cons(x, xs) => Cons(f(x), map(xs)(f))
-    }
+    foldRight(as, Nil: List[B])((a, b) => Cons(f(a), b))
   }
 
+  //Exercise 3.19 filter that removes items in list unless they satisfy a predicate
+  def filter[A](as: List[A])(f: A => Boolean): List[A] = {
+     foldRight(as, Nil: List[A])((x, y) => if(f(x)) Cons(x, y) else y)
+  }
 
 
 
