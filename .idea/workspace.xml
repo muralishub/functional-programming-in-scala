@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="278ce1b0-0bb7-4a9e-a1bb-88f3e4fb41bd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter/three/exercises/Functions.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/chapter/three/exercises/Functions.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/chapter/threeTests/ExerciseTest.class" afterPath="$PROJECT_DIR$/target/scala-2.12/test-classes/chapter/threeTests/ExerciseTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/chapter/twoTests/ExerciseTest.class" afterPath="$PROJECT_DIR$/target/scala-2.12/test-classes/chapter/twoTests/ExerciseTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/chapter/three/exercises/Functions.scala" afterPath="$PROJECT_DIR$/src/main/scala/chapter/three/exercises/Functions.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/chapter.threeTests/ExerciseTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/chapter.threeTests/ExerciseTest.scala" />
@@ -57,11 +54,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Functions.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Functions.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/chapter/three/exercises/Functions.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="636">
-              <caret line="165" column="83" selection-start-line="165" selection-start-column="83" selection-end-line="165" selection-end-column="83" />
+            <state relative-caret-position="771">
+              <caret line="179" column="0" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
               <folding>
                 <element signature="e#33#63#0" expanded="true" />
               </folding>
@@ -79,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExerciseTest.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ExerciseTest.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/chapter.threeTests/ExerciseTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="143" column="63" selection-start-line="143" selection-start-column="63" selection-end-line="143" selection-end-column="63" />
+            <state relative-caret-position="771">
+              <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
               <folding>
                 <element signature="e#28#50#0" expanded="true" />
               </folding>
@@ -222,8 +219,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/chapeter/two/exercises/FibonacciNumber.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/chapeter/two/exercises/IsSorted.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/chapeter/two/exercises/Currying.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/chapter/three/exercises/Functions.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/chapter.threeTests/ExerciseTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/chapter/three/exercises/Functions.scala" />
       </list>
     </option>
   </component>
@@ -250,7 +247,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -263,19 +260,12 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../product-content" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -287,22 +277,7 @@
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunManager" selected="ScalaTest.ExerciseTest.In Function filter even numbers">
-    <configuration default="false" name="ExerciseTest.In Function list Int to list Double" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="functional-programming-in-scala" />
-      <setting name="path" value="chapter.threeTests.ExerciseTest" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="In Function list Int to list Double" />
-      <setting name="testKind" value="Test name" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.ExerciseTest.In Function filter by condition">
     <configuration default="false" name="ExerciseTest.In Function modify each elemnt of list" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="functional-programming-in-scala" />
@@ -358,6 +333,21 @@
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
       <setting name="testName" value="In Function filter even numbers" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExerciseTest.In Function filter by condition" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="functional-programming-in-scala" />
+      <setting name="path" value="chapter.threeTests.ExerciseTest" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="In Function filter by condition" />
       <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <envs />
@@ -590,6 +580,7 @@
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
+      <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
@@ -821,6 +812,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -876,19 +873,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Application.MyModule" />
       <item index="1" class="java.lang.String" itemvalue="SBT Task.Unnamed" />
-      <item index="2" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function list Int to list Double" />
-      <item index="3" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function modify each elemnt of list" />
-      <item index="4" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest" />
-      <item index="5" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function fr" />
-      <item index="6" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function filter even numbers" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function modify each elemnt of list" />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function fr" />
+      <item index="5" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function filter even numbers" />
+      <item index="6" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function filter by condition" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function filter even numbers" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function fr" />
-        <item index="2" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function modify each elemnt of list" />
-        <item index="4" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function list Int to list Double" />
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function filter by condition" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function filter even numbers" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function fr" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.In Function modify each elemnt of list" />
       </list>
     </recent_temporary>
   </component>
@@ -980,7 +977,11 @@
       <workItem from="1483426102781" duration="1156000" />
       <workItem from="1483594562834" duration="2122000" />
       <workItem from="1483770507355" duration="626000" />
-      <workItem from="1484112412615" duration="4357000" />
+      <workItem from="1484112412615" duration="4872000" />
+      <workItem from="1484199081500" duration="1495000" />
+      <workItem from="1484376312112" duration="1196000" />
+      <workItem from="1484377968906" duration="33000" />
+      <workItem from="1484544256882" duration="3364000" />
     </task>
     <task id="LOCAL-00001" summary="chapter-2: isSorted">
       <created>1479104856108</created>
@@ -1066,33 +1067,40 @@
       <option name="project" value="LOCAL" />
       <updated>1483537715409</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="chapter3: Exercise 3.19&#10;&#10;&#10;&#10;">
+      <created>1484118647817</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1484118647817</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExerciseTest_In_Function_add_one_to_all_elements_in_a_list_tail_recursive - 2016.12.28 at 09h 32m 26s.xml">
-      <configuration name="ExerciseTest.In Function add one to all elements in a list tail recursive" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ExerciseTest - 2017.01.16 at 05h 42m 38s.xml">
+      <configuration name="ExerciseTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ExerciseTest_In_Function_add_one_to_all_elements_in_a_list_tail_recursive - 2016.12.28 at 09h 33m 31s.xml">
-      <configuration name="ExerciseTest.In Function add one to all elements in a list tail recursive" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ExerciseTest_In_Function_filter_by_condition - 2017.01.16 at 05h 42m 48s.xml">
+      <configuration name="ExerciseTest.In Function filter by condition" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ExerciseTest_In_Function_add_one_to_all_elements_in_a_list_tail_recursive - 2016.12.28 at 09h 34m 25s.xml">
-      <configuration name="ExerciseTest.In Function add one to all elements in a list tail recursive" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ExerciseTest_In_Function_filter_by_condition - 2017.01.16 at 05h 43m 28s.xml">
+      <configuration name="ExerciseTest.In Function filter by condition" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ExerciseTest_In_Function_fr - 2017.01.11 at 06h 00m 46s.xml">
-      <configuration name="ExerciseTest.In Function fr" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ExerciseTest_In_Function_filter_by_condition - 2017.01.16 at 05h 44m 18s.xml">
+      <configuration name="ExerciseTest.In Function filter by condition" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ExerciseTest_In_Function_fr - 2017.01.11 at 06h 01m 08s.xml">
-      <configuration name="ExerciseTest.In Function fr" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ExerciseTest_In_Function_filter_by_condition - 2017.01.16 at 05h 44m 40s.xml">
+      <configuration name="ExerciseTest.In Function filter by condition" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ExerciseTest_In_Function_list_Int_to_list_Double - 2016.12.28 at 11h 05m 20s.xml">
-      <configuration name="ExerciseTest.In Function list Int to list Double" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ExerciseTest_In_Function_filter_by_condition - 2017.01.16 at 05h 52m 24s.xml">
+      <configuration name="ExerciseTest.In Function filter by condition" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ExerciseTest_In_Function_modify_each_elemnt_of_list - 2017.01.03 at 07h 05m 43s.xml">
-      <configuration name="ExerciseTest.In Function modify each elemnt of list" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ExerciseTest_In_Function_filter_by_condition - 2017.01.16 at 06h 50m 08s.xml">
+      <configuration name="ExerciseTest.In Function filter by condition" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ExerciseTest_In_Function_modify_each_elemnt_of_list - 2017.01.03 at 07h 05m 57s.xml">
-      <configuration name="ExerciseTest.In Function modify each elemnt of list" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ExerciseTest_In_Function_filter_by_condition - 2017.01.16 at 06h 50m 41s.xml">
+      <configuration name="ExerciseTest.In Function filter by condition" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
     <history-entry file="ExerciseTest_In_Function_modify_each_elemnt_of_list - 2017.01.03 at 07h 06m 09s.xml">
       <configuration name="ExerciseTest.In Function modify each elemnt of list" configurationId="ScalaTestRunConfiguration" />
@@ -1102,7 +1110,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118623000" />
+    <option name="totallyTimeSpent" value="125226000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="54" width="1615" height="1026" extended-state="6" />
@@ -1110,7 +1118,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32444444" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32444444" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17909497" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1158,7 +1166,8 @@
     <MESSAGE value="chapter3: foldRight tail recursive?&#10;&#10;&#10;&#10;" />
     <MESSAGE value="chapter3: Exercise 3.15&#10;&#10;&#10;&#10;" />
     <MESSAGE value="chapter3: Exercise 3.18&#10;&#10;&#10;&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="chapter3: Exercise 3.18&#10;&#10;&#10;&#10;" />
+    <MESSAGE value="chapter3: Exercise 3.19&#10;&#10;&#10;&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapter3: Exercise 3.19&#10;&#10;&#10;&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1278,9 +1287,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1110">
           <caret line="88" column="7" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1342,16 +1348,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/chapter/three/exercises/Functions.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="165" column="83" selection-start-line="165" selection-start-column="83" selection-end-line="165" selection-end-column="83" />
-          <folding>
-            <element signature="e#33#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/chapter/three/samples/RecursionAndGeneralization.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -1362,10 +1358,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/chapter.threeTests/ExerciseTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="143" column="63" selection-start-line="143" selection-start-column="63" selection-end-line="143" selection-end-column="63" />
+        <state relative-caret-position="771">
+          <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
           <folding>
             <element signature="e#28#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/chapter/three/exercises/Functions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="771">
+          <caret line="179" column="0" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
+          <folding>
+            <element signature="e#33#63#0" expanded="true" />
           </folding>
         </state>
       </provider>

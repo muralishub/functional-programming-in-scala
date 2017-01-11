@@ -165,13 +165,16 @@ class Functions {
 
   //Exercise 3.19 filter that removes items in list unless they satisfy a predicate
   def filter[A](as: List[A])(f: A => Boolean): List[A] = {
-     foldRight(as, Nil: List[A])((x, y) => if(f(x)) Cons(x, y) else y)
+     foldRight(as, List[A]())((x, y) => if(f(x)) Cons(x, y) else y)
   }
 
+  //Exercise 3.20 faltMap that works like map but returns a list instead of sigle result
+  def flatMap[A, B](list: List[A])(f: A => List[B]): List[B] = ???
 
 
 
-  }
+
+}
 
 
 

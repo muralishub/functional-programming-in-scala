@@ -166,6 +166,23 @@ class ExerciseTest extends FunSpec {
       
     }
 
+    //Exercise 3.19 Filter that satisfyies a condition
+    it("filter by condition") {
+      val foo = new Functions
+      foo.filter(List(1, 2))(x => x % 2 == 0) shouldBe List(2)
+      foo.filter(List(2, 4, 6, 8, 9))(x => x % 2 == 0) shouldBe List(2, 4, 6, 8)
+      foo.filter(List(1))(x => x % 2 == 0) shouldBe Nil
+    }
+
+    //Exercise 3.20 flatMap
+    it("flatmap") {
+      val foo = new Functions
+      foo.flatMap(List(1, 2, 3))(i => List(i, i)) shouldBe List(1, 1, 2, 2, 3, 3)
+    }
+
+
+
+
 
 
 
