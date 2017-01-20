@@ -3,9 +3,10 @@ package chapter.threeTests
 import chapter.three._
 import chapter.three.exercises.Functions
 import chapter.three.samples._
-
 import org.scalatest.FunSpec
 import org.scalatest.Matchers._
+
+import scala.collection.mutable.RedBlackTree
 
 /**
   * Created by murali on 17/11/2016.
@@ -180,7 +181,30 @@ class ExerciseTest extends FunSpec {
       foo.flatMap(List(1, 2, 3))(i => List(i, i)) shouldBe List(1, 1, 2, 2, 3, 3)
     }
 
+    //Exercise 3.21 Filter using flatMap
+    it("filter with flatmap") {
+      val foo = new Functions
+      foo.filterUsingFlatMap(List(1, 2, 3))(x => x % 2 == 0) shouldBe List(2)
+    }
 
+    //Exercise 3.22 add elements from 2 lists and generate a new list
+    it("add list elements and return a new list") {
+      val foo = new Functions
+      foo.addElementsInList(List(1, 2, 3), List(4, 5, 6))(_ +_) shouldBe List(5, 7, 9)
+    }
+
+    //Exercise 3.23 make above function generic so it works for non integers and other than +
+    it("add list so it works also for non integers") {
+      val foo = new Functions
+      foo.zipWith(List("a", "x"), List("b", "y"))(_ + _) shouldBe List("ab", "xy")
+      foo.zipWith(List(1, 2), List(3, 4))(_ * _) shouldBe List(3, 8)
+    }
+
+   //Exercise 3.24 subsequence exists
+    it("has subSequence") {
+      val foo = new Functions
+      foo.hasSubsequence(List(1, 2, 3, 4), List(1, 2)) shouldBe true
+    }
 
 
 
@@ -188,5 +212,4 @@ class ExerciseTest extends FunSpec {
 
 
   }
-
 }
