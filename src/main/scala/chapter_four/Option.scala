@@ -4,6 +4,7 @@ package chapter_four
   * Created by mraju on 25/01/17.
   */
 
+//Exercise 4.1 Impliment functions in trait
 sealed trait Option[+A] {
 
   def map[B](f: A => B): Option[B] = this match {
@@ -38,6 +39,21 @@ sealed trait Option[+A] {
 
 case class Some[+A](get: A) extends Option[A]
 case object None extends Option[Nothing]
+
+object Option {
+//Book Example
+  def mean(xs: Seq[Double]): Option[Double] =
+    if (xs.isEmpty) None
+    else Some(xs.sum / xs.length)
+
+//Exercise 4.2
+  def variance(xs: Seq[Double]): Option[Double] =
+    mean(xs) flatMap (m => mean(xs.map(x => math.pow(x - m, 2))))
+
+
+}
+
+
 
 
 
