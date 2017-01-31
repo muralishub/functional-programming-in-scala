@@ -41,16 +41,15 @@ case class Some[+A](get: A) extends Option[A]
 case object None extends Option[Nothing]
 
 object Option {
-//Book Example
-  def mean(xs: Seq[Double]): Option[Double] =
+   //Book Example
+    def mean(xs: Seq[Double]): Option[Double] =
     if (xs.isEmpty) None
     else Some(xs.sum / xs.length)
 
-//Exercise 4.2
-  def variance(xs: Seq[Double]): Option[Double] =
-    mean(xs) flatMap (m => mean(xs.map(x => math.pow(x - m, 2))))
-
-
+  //Exercise 4.2 variance function in terms of flatmap
+  def variance(xs: Seq[Double]): Option[Double] = {
+    mean(xs).flatMap(m => mean(xs.map(x => math.pow(x - m , 2))))
+  }
 }
 
 
