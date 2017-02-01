@@ -53,7 +53,8 @@ object Option {
 
   //Note 1: Use map to do something to a list
   //Note 2: use flatMap for multiple stages. if in case of failure computation will abort it wont execute rest of the expression
-
+  //Note 3: getOrElse :  if we have multiple stages we can use it at the end of all states , converts from Option[String] to String
+  //Note 4: orElse: execute other condition if first condition is undefined and return Option[String].
 
 
 
