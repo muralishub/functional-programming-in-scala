@@ -1,11 +1,13 @@
 package chapter_four
 
+import chapter_three.samples.Cons
+
 /**
   * Created by mraju on 25/01/17.
   */
 
 //Exercise 4.1 Impliment functions in trait
-sealed trait Option[+A] {
+ trait Option[+A] {
 
   def map[B](f: A => B): Option[B] = this match {
     case Some(a) => Some(f(a))
@@ -56,28 +58,101 @@ object Option {
   //Note 3: getOrElse :  if we have multiple stages we can use it at the end of all states , converts from Option[String] to String
   //Note 4: orElse: execute other condition if first condition is undefined and return Option[String].
 
+//BookExample
+  def lift[A, B](f: A => B): Option[A] => Option[B] = _ map f
 
-
-  //Book Example : this can operate on option instead of normal values in function
-  def Lift[A, B](f: A => B): Option[A] => Option[B] = _ map f
 
 
   //Exercise 4.3
   def map2[A, B, C](a: Option[A], b: Option[B])(f: (A, B) => C): Option[C] = {
-    a flatMap(aa => b map(bb => f(aa, bb)))
+    a flatMap(x => b map(y => f(x, y)))
+  }
 
-
-
-
-
-
-    a flatMap(aa => b map (bb => f(aa, bb)))
-
-    (a, b) match {
-      case (Some(a), Some(b)) => Some(f(a, b))
-      case _ => None
+ // Exercise 4.4 list of Optional values will return Some and if any value has None will return None
+  def sequence[A](a: List[Option[A]]): Option[List[A]] = {
+    a match{
+      case Nil => Some(List[A]())
+      case h :: t => h flatMap(x => sequence(t).map(x :: _))
     }
   }
+
+  //Exercise 4.5
+  def traverse[A, B](a: List[A])(f: A => Option[B]): Option[List[B]] = {
+   a match{
+     case Nil => Some(List[B]())
+     case h :: t => f(h) flatMap(a => traverse(t)(f).map(a :: _))
+   }
+  }
+
+  def sequenceViaTraverse[A](a: List[Option[A]]): Option[List[A]] = {
+    traverse(a)(x => x)
+  }
+}
+
+sealed trait Either[+E , +A] {
+
+  //Example 4.6
+  def map[B](f: A => B): Either[E, B] = {
+    this match {
+      case Right(a) => Right(f(a))
+      case Left(a) => Left(a)
+    }
+  }
+
+  def flatMap[EE >: E, B](f: A => Either[EE, B]): Either[EE, B] = {
+    this match {
+      case Right(a) => f(a)
+      case Left(e) => Left(e)
+    }
+  }
+
+  def orElse[EE >: E,  B >: A](b: => Either[EE, B]): Either[EE, B] = {
+    this match {
+      case Right(a) => Right(a)
+      case Left(_) => b
+    }
+  }
+
+  def map2[EE >: E, B, C](b: Either[EE, B])(f: (A, B) => C): Either[EE, C] = {
+ for {
+   a <- this
+   bb <- b
+ } yield f(a, bb)
+  }
+
+
+
+
+}
+case class Left[+E](value: E) extends Either[E, Nothing]
+case class Right[+A](value: A) extends Either[Nothing, A]
+
+object Either {
+  //Book example
+  def mean(xs: IndexedSeq[Double]): Either[String, Double] = {
+    if(xs.isEmpty) Left("empty")
+    else
+      Right(xs.sum / xs.length)
+  }
+  //Book example
+  def safeDiv(x: Int, y: Int): Either[Exception, Int] = {
+    try Right(x/ y)
+    catch{case e: Exception => Left(e)}
+  }
+
+
+  //Exercise 4.7 sequence and either for Either
+  def sequence[E, A](es: List[Either[E, A]]): Either[E, List[A]] = {
+   traverse(es)(x => x)
+  }
+
+  def traverse[E, A, B](as: List[A])(f: A => Either[E, B]): Either[E, List[B]] = {
+    as match {
+      case Nil => Right(Nil)
+      case h :: t => (f(h) map2 traverse(t)(f))(_ :: _)
+     }
+  }
+
 
 }
 
