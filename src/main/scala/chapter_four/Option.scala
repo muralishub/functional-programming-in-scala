@@ -119,11 +119,8 @@ sealed trait Either[+E , +A] {
    bb <- b
  } yield f(a, bb)
   }
-
-
-
-
 }
+
 case class Left[+E](value: E) extends Either[E, Nothing]
 case class Right[+A](value: A) extends Either[Nothing, A]
 
@@ -140,7 +137,6 @@ object Either {
     catch{case e: Exception => Left(e)}
   }
 
-
   //Exercise 4.7 sequence and either for Either
   def sequence[E, A](es: List[Either[E, A]]): Either[E, List[A]] = {
    traverse(es)(x => x)
@@ -152,6 +148,32 @@ object Either {
       case h :: t => (f(h) map2 traverse(t)(f))(_ :: _)
      }
   }
+
+  //Book Example
+  case class  Person(name: Name, age: Age)
+  sealed class Name(value: String)
+  sealed class Age(value: Int)
+
+  def mkName(name: String): Either[String, Name] = {
+    if(name == null || name == "") Left("name is not valid")
+    else Right(new Name(name))
+  }
+
+  def mkAge(age: Int): Either[String, Age] = {
+    if(age < 0) Left("age is out of range")
+    else Right(new Age(age))
+  }
+
+  def mkPerson(name: String, age: Int): Either[String, Person] ={
+    mkName(name).map2(mkAge(age))(Person(_, _))
+  }
+
+
+  //Exercise 4.8 above function will return only 1 error to return multiple errors we can introduce a new data type
+
+  trait NewEither[+E, +B]
+  case class Errors[+E](get: Seq[E]) extends NewEither[E, Nothing]
+  case class Success[+B](get: B) extends NewEither[Nothing,B]
 
 
 }
