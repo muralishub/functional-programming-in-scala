@@ -9,6 +9,13 @@ class Exercises {
   }
 
 
+
+
+
+
+
+
+
 }
 
 
@@ -26,9 +33,24 @@ object Stream {
     Cons(() => head, () => tail)
   }
 
+  def headOption[A](s: Stream[A]): Option[A] = s match {
+    case Empty => None
+    case Cons(h, t) => Some(h())
+
+  }
+
   def empty[A]: Stream[A] = Empty
 
   def apply[A](as: A*): Stream[A] =
     if(as.isEmpty) Empty else cons(as.head, apply(as.tail: _*))
+
+
+
+  //Exercise 5.1: Convert Stream to List
+  def toList[A]: List[A] = this match {
+   // case Cons(h, t) => h, to
+  }
+
+
 
 }
