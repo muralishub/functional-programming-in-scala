@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2820a922-5111-4b5c-8858-4f06abfff5ee" name="Default" comment="chapter 5">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/chapter_five/Exercises.scala" afterPath="$PROJECT_DIR$/src/main/scala/chapter_five/Exercises.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/chapter_fiveTests/ExerciseTests.scala" afterPath="$PROJECT_DIR$/src/test/scala/chapter_fiveTests/ExerciseTests.scala" />
     </list>
     <ignored path="functional-programming-in-scala.iws" />
@@ -84,7 +85,7 @@
       <file leaf-file-name="ExerciseTest.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/chapter_fourTests/ExerciseTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="943">
+            <state relative-caret-position="897">
               <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding>
                 <element signature="e#27#55#0" expanded="true" />
@@ -103,24 +104,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Exercises.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Exercises.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/chapter_five/Exercises.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="506">
+              <caret line="43" column="66" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExerciseTests.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ExerciseTests.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/chapter_fiveTests/ExerciseTests.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-              <folding>
-                <element signature="e#27#56#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="529">
+              <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -187,8 +186,8 @@
         <option value="$PROJECT_DIR$/src/test/scala/chapter_fourTests/ExerciseTest.java" />
         <option value="$PROJECT_DIR$/src/test/scala/chapter_fourTests/ExerciseTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/chapter_four/Option.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/chapter_five/Exercises.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/chapter_fiveTests/ExerciseTests.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/chapter_five/Exercises.scala" />
       </list>
     </option>
   </component>
@@ -200,9 +199,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="2495" />
-    <option name="height" value="1416" />
+    <option name="height" value="1444" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -229,7 +228,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -377,7 +376,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -392,7 +391,7 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="ScalaTest.ExerciseTests.if2">
+  <component name="RunManager" selected="ScalaTest.ExerciseTests.take">
     <configuration default="false" name="Samples.Lift" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="functional-programming-in-scala" />
@@ -404,21 +403,6 @@
       <setting name="searchForTest" value="Across module dependencies" />
       <setting name="testName" value="Lift" />
       <setting name="testKind" value="Test name" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ExerciseTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="functional-programming-in-scala" />
-      <setting name="path" value="chapter_fourTests.ExerciseTest" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
       <setting name="showProgressMessages" value="true" />
       <envs />
       <method />
@@ -463,6 +447,21 @@
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
       <setting name="testName" value="if2" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExerciseTests.take" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="functional-programming-in-scala" />
+      <setting name="path" value="chapter_fiveTests.ExerciseTests" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="take" />
       <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <envs />
@@ -893,18 +892,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="ScalaTest.Samples.Lift" />
-      <item index="1" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest" />
-      <item index="2" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.sequence" />
-      <item index="3" class="java.lang.String" itemvalue="ScalaTest.ExerciseTests." />
-      <item index="4" class="java.lang.String" itemvalue="ScalaTest.ExerciseTests.if2" />
+      <item index="1" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.sequence" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.ExerciseTests." />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.ExerciseTests.if2" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.ExerciseTests.take" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.ExerciseTests.if2" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.ExerciseTests." />
-        <item index="2" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.sequence" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.Samples.Lift" />
-        <item index="4" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest" />
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.ExerciseTests.take" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.ExerciseTests.if2" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.ExerciseTests." />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.ExerciseTest.sequence" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.Samples.Lift" />
       </list>
     </recent_temporary>
   </component>
@@ -1045,42 +1044,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExerciseTests_if2 - 2017.02.06 at 13h 49m 45s.xml">
-      <configuration name="ExerciseTests.if2" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ExerciseTests_take - 2017.02.09 at 17h 23m 57s.xml">
+      <configuration name="ExerciseTests.take" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ExerciseTests_if2 - 2017.02.06 at 13h 52m 07s.xml">
-      <configuration name="ExerciseTests.if2" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ExerciseTests_take - 2017.02.09 at 17h 24m 10s.xml">
+      <configuration name="ExerciseTests.take" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ExerciseTests_if2 - 2017.02.06 at 13h 52m 26s.xml">
-      <configuration name="ExerciseTests.if2" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ExerciseTests_take - 2017.02.09 at 17h 24m 26s.xml">
+      <configuration name="ExerciseTests.take" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ExerciseTests_if2 - 2017.02.06 at 13h 52m 40s.xml">
-      <configuration name="ExerciseTests.if2" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ExerciseTests_take - 2017.02.09 at 17h 24m 56s.xml">
+      <configuration name="ExerciseTests.take" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ExerciseTests_if2 - 2017.02.06 at 13h 53m 00s.xml">
-      <configuration name="ExerciseTests.if2" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ExerciseTests_take - 2017.02.09 at 17h 25m 16s.xml">
+      <configuration name="ExerciseTests.take" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ExerciseTests_if2 - 2017.02.06 at 13h 56m 24s.xml">
-      <configuration name="ExerciseTests.if2" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ExerciseTests_take - 2017.02.09 at 17h 28m 45s.xml">
+      <configuration name="ExerciseTests.take" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ExerciseTests_if2 - 2017.02.06 at 13h 56m 32s.xml">
-      <configuration name="ExerciseTests.if2" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ExerciseTests_take - 2017.02.09 at 17h 29m 02s.xml">
+      <configuration name="ExerciseTests.take" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Samples_Lift - 2017.02.03 at 13h 27m 17s.xml">
-      <configuration name="Samples.Lift" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ExerciseTests_take - 2017.02.09 at 17h 30m 29s.xml">
+      <configuration name="ExerciseTests.take" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Samples_Lift - 2017.02.03 at 13h 27m 38s.xml">
-      <configuration name="Samples.Lift" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ExerciseTests_take - 2017.02.09 at 17h 30m 45s.xml">
+      <configuration name="ExerciseTests.take" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Samples_Lift - 2017.02.03 at 13h 28m 09s.xml">
-      <configuration name="Samples.Lift" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ExerciseTests_take - 2017.02.09 at 17h 40m 04s.xml">
+      <configuration name="ExerciseTests.take" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="31789000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="2495" height="1416" extended-state="6" />
+    <frame x="65" y="-4" width="2495" height="1444" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1174,7 +1173,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1207,7 +1205,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1249,7 +1246,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1291,7 +1287,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1381,7 +1376,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1392,7 +1386,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5060">
           <caret line="226" column="5" selection-start-line="226" selection-start-column="5" selection-end-line="226" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1454,7 +1447,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/chapter_fourTests/ExerciseTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
+        <state relative-caret-position="897">
           <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding>
             <element signature="e#27#55#0" expanded="true" />
@@ -1462,21 +1455,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/chapter_five/Exercises.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/chapter_fiveTests/ExerciseTests.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="529">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/chapter_fiveTests/ExerciseTests.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/chapter_five/Exercises.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-          <folding>
-            <element signature="e#27#56#0" expanded="true" />
-          </folding>
+          <caret line="43" column="66" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
+          <folding />
         </state>
       </provider>
     </entry>

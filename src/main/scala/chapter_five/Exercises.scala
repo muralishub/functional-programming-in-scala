@@ -39,13 +39,10 @@ class Exercises {
 
   //Exercise 5.2 take(n) and drop(n)
 
-  def take(n: Int): Stream[A] = {
-    @annotation.tailrec
-    def loop(as: Stream[A], newStream: Stream[A], acc: Int): Stream[A] = as match {
-      case Empty => Stream[A]()
-      case Cons(h, t)  => if(acc > 0) loop(t(), Stream.cons(h(), newStream), acc - 1) else newStream
-    }
-    loop(this, Stream[A](), n)
+  def take(n: Int): Stream[A] = this match {
+    case Empty => Empty
+    case Cons(h, t) if(n > 1) => Stream.cons(h(), t().take(n - 1))
+    case Cons(h, t) => Stream.cons(h(), Empty)
   }
 
   def drop(n: Int) = ???

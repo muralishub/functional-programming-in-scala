@@ -22,7 +22,7 @@ it("apply") {
     }
 //Exercise 5.2 take and drop
   it("take") {
-    println(Stream(1,2,3,4).take(2).toList)  // shouldBe Stream(1,2)
+    Stream(1,2,3,4).take(2).toList shouldBe List(1, 2)
   }
 
   it("drop") {
