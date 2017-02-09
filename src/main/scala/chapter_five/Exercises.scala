@@ -7,18 +7,6 @@ class Exercises {
     if(cond)  test
     else test
   }
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 
@@ -45,10 +33,26 @@ class Exercises {
     case Cons(h, t) => Stream.cons(h(), Empty)
   }
 
-  def drop(n: Int) = ???
+  def drop(n: Int): Stream[A] =  {
+    def loop(o: Stream[A] ,acc: Int ): Stream[A] = o match {
+      case Empty =>  Empty
+      case Cons(h, t) if(acc < n) => loop(t(), acc + 1)
+      case Cons(h, t) => o
+    }
+    loop(this, 0)
+  }
+
+  def takeWhile(p: A => Boolean): Stream[A] = {
+    def loop(o: Stream[A], n: Stream[A]): Stream[A] = o match {
+      case Empty => n
+      case Cons(h, t)  => if(h == p) Stream.cons(h(), t().takeWhile(p)) else  loop(t(), n)
+    }
+    loop(this, Stream[A]())
+  }
 
 
 }
+
 case object Empty extends Stream[Nothing]
 case class Cons[+A](h:() => A, t:() => Stream[A]) extends Stream[A]
 
@@ -70,10 +74,5 @@ object Stream {
 
   def apply[A](as: A*): Stream[A] =
     if(as.isEmpty) Empty else cons(as.head, apply(as.tail: _*))
-
-
-
-
-
 
 }

@@ -26,7 +26,13 @@ it("apply") {
   }
 
   it("drop") {
-    pending
+    Stream(1,2, 3, 4).drop(2).toList shouldBe List(3, 4)
+  }
+
+  //Exercise 5.3 take while that matches a pridicate
+  it("takeWhile") {
+    Stream(1, 2, 3, 4, 5, 6).takeWhile(_ == 5).toList shouldBe List(1, 2, 3, 4, 5)
+
   }
 
 
