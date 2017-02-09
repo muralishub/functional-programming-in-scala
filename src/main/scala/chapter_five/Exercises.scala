@@ -18,12 +18,16 @@ class Exercises {
 
 
 
+
 }
 
 
 
 //Book Example
  trait Stream[+A] {
+
+
+  //Exercise 5.1 convert Stream to List
   def toList: List[A] = {
  @annotation.tailrec
     def loop(as: Stream[A], list: List[A]): List[A] = as match {
@@ -33,9 +37,23 @@ class Exercises {
     loop(this, List())
   }
 
+  //Exercise 5.2 take(n) and drop(n)
+
+  def take(n: Int): Stream[A] = {
+    @annotation.tailrec
+    def loop(as: Stream[A], newStream: Stream[A], acc: Int): Stream[A] = as match {
+      case Empty => Stream[A]()
+      case Cons(h, t)  => if(acc > 0) loop(t(), Stream.cons(h(), newStream), acc - 1) else newStream
+    }
+    loop(this, Stream[A](), n)
+  }
+
+  def drop(n: Int) = ???
+
+
 }
 case object Empty extends Stream[Nothing]
-case class Cons[+A](h: () => A, t: () => Stream[A]) extends Stream[A]
+case class Cons[+A](h:() => A, t:() => Stream[A]) extends Stream[A]
 
 object Stream {
 

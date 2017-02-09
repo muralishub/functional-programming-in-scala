@@ -20,6 +20,14 @@ it("apply") {
   it("toList") {
     Stream(1, 2).toList shouldBe List(1, 2)
     }
+//Exercise 5.2 take and drop
+  it("take") {
+    println(Stream(1,2,3,4).take(2).toList)  // shouldBe Stream(1,2)
+  }
+
+  it("drop") {
+    pending
+  }
 
 
 }
