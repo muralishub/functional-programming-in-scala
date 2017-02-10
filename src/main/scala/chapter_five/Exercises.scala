@@ -42,12 +42,9 @@ class Exercises {
     loop(this, 0)
   }
 
-  def takeWhile(p: A => Boolean): Stream[A] = {
-    def loop(o: Stream[A], n: Stream[A]): Stream[A] = o match {
-      case Empty => n
-      case Cons(h, t)  => if(h == p) Stream.cons(h(), t().takeWhile(p)) else  loop(t(), n)
-    }
-    loop(this, Stream[A]())
+  def takeWhile(p: A => Boolean): Stream[A] = this match {
+    case Cons(h, t) if p(h()) => Stream.cons(h(), t().takeWhile(p))
+    case _ => Empty
   }
 
 

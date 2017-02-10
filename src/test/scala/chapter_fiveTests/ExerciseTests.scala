@@ -31,7 +31,9 @@ it("apply") {
 
   //Exercise 5.3 take while that matches a pridicate
   it("takeWhile") {
-    Stream(1, 2, 3, 4, 5, 6).takeWhile(_ == 5).toList shouldBe List(1, 2, 3, 4, 5)
+   println(Stream(1, 2, 3, 4, 5, 6).takeWhile(_ == 3).toList)
+  //  Stream().takeWhile(_ == 5).toList shouldBe List()
+    Stream(1, 2, 3, 4).takeWhile(_ == 2).toList shouldBe List(1, 2)
 
   }
 
