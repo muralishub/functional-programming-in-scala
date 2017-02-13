@@ -31,12 +31,20 @@ it("apply") {
 
   //Exercise 5.3 take while that matches a pridicate
   it("takeWhile") {
-   println(Stream(1, 2, 3, 4, 5, 6).takeWhile(_ == 3).toList)
-  //  Stream().takeWhile(_ == 5).toList shouldBe List()
-    Stream(1, 2, 3, 4).takeWhile(_ == 2).toList shouldBe List(1, 2)
+
+    Stream(3, 7, 2).takeWhile(_ % 2 == 1).toList shouldBe List(3, 7)
 
   }
+  //Exercise 5.4
+  it("forAll") {
+    Stream(2, 4, 7).forAll(_ % 2 == 1) shouldBe false
+    Stream(3, 5, 7).forAll(_ % 2 == 1) shouldBe true
+  }
 
+  //Exercise 5.5 takewhile
+//  it("takeWhile using foldRight") {
+//    Stream(1, 2, 7).takeWhileUsingFoldRight(_ % 2 == 1) shouldBe Stream(1, 2)
+//  }
 
 }
 
