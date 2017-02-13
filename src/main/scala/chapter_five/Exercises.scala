@@ -41,12 +41,30 @@ class Exercises {
     }
     loop(this, 0)
   }
-
+// Exercise 5.3
   def takeWhile(p: A => Boolean): Stream[A] = this match {
     case Cons(h, t) if p(h()) => Stream.cons(h(), t().takeWhile(p))
     case _ => Empty
   }
 
+  //BookExample
+  def exists(p: A => Boolean): Boolean = this match {
+    case Cons(h, t) => p(h()) || t().exists(p)
+    case _ => false
+  }
+
+  //BookExample foldRight for Stream with laziness
+  def foldRight[B](z: => B)(f: (A, => B) => B): B = this match{
+    case Cons(h, t) => f(h(), t().foldRight(z)(f))
+    case _ => z
+  }
+
+  //BookExample exists using foldRight
+  def existsUsingFoldRight(p: A => Boolean): Boolean = foldRight(false)((a, b) => p(a) || b)
+
+
+  //Exercise 5.4
+  def forAll(p: A => Boolean): Boolean = foldRight(true)((a, b) => p(a) && b)
 
 }
 
