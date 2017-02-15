@@ -47,6 +47,22 @@ it("apply") {
     Stream(2).takeWhileUsingFoldRight(_ % 2 == 1).toList shouldBe Stream().toList
   }
 
+  //Exercise 5.6 headOption using foldRight
+  it("headOption") {
+    Stream(1, 2).headOption shouldBe Some(1)
+  }
+
+  //Exercise 5.7 map, filter
+  it("map") {
+    Stream(1, 2).map(x => x + 1).toList shouldBe List(2, 3)
+  }
+
+  it("filter") {
+    Stream(1, 2, 3, 4).filter(_ % 2 == 0).toList shouldBe List(2, 4)
+  }
+
+
+
 }
 
 

@@ -16,6 +16,7 @@ class Exercises {
  trait Stream[+A] {
 
 
+
   //Exercise 5.1 convert Stream to List
   def toList: List[A] = {
  @annotation.tailrec
@@ -71,6 +72,14 @@ class Exercises {
    //Exercise 5.5 foldRight to implement takeWhile , take while it mathces a predicate
   def takeWhileUsingFoldRight(p: A => Boolean): Stream[A] = foldRight(Stream[A]())((x, y) => if(p(x)) Stream.cons(x,y) else y)
 
+
+  //Exercise 5.6 HeadOption using foldRight
+  def headOption: Option[A] = foldRight(None: Option[A])((x, y) => Some(x))
+
+  //Exercise 5.7 map, filter , append and flatMap using foldRight
+  def map[B](f: A => B): Stream[B] = foldRight(Empty: Stream[B])((x, y) => Stream.cons(f(x), y))
+
+  def filter(f:A => Boolean): Stream[A] = ???
 
 
 }
