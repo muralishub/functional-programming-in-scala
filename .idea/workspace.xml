@@ -1,47 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2820a922-5111-4b5c-8858-4f06abfff5ee" name="Default" comment="5.4&#10;">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/chapter/threeTests/ExerciseTest.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/scala/chapter_threeTests/ExerciseTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/chapter_threeTests/FunctionsTest.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
+    <list default="true" id="2820a922-5111-4b5c-8858-4f06abfff5ee" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_five/Cons$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_five/Cons$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_five/Cons.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_five/Cons.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_five/Empty$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_five/Empty$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_five/Empty.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_five/Empty.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_five/Exercises.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_five/Exercises.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_five/Stream$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_five/Stream$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_five/Stream.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_five/Stream.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_three/exercises/Branch$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_three/exercises/Branch$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_three/exercises/Branch.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_three/exercises/Branch.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_three/exercises/Functions.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_three/exercises/Functions.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_three/exercises/Leaf$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_three/exercises/Leaf$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_three/exercises/Leaf.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_three/exercises/Leaf.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/chapter/twoTests/ExerciseTest.class" afterPath="$PROJECT_DIR$/target/scala-2.12/test-classes/chapter/twoTests/ExerciseTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/chapter_fiveTests/ExerciseTests.class" afterPath="$PROJECT_DIR$/target/scala-2.12/test-classes/chapter_fiveTests/ExerciseTests.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/chapter_fourTests/ExerciseTest.class" afterPath="$PROJECT_DIR$/target/scala-2.12/test-classes/chapter_fourTests/ExerciseTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/chapter_fourTests/Samples.class" afterPath="$PROJECT_DIR$/target/scala-2.12/test-classes/chapter_fourTests/Samples.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/functional-programming-in-scala-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/functional-programming-in-scala-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/functional-programming-in-scala-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/functional-programming-in-scala-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-functional-programming-in-scala-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-functional-programming-in-scala-build-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-functional-programming-in-scala-build-compile.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-functional-programming-in-scala-build-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-functional-programming-in-scala-build-docs.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-functional-programming-in-scala-build-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-functional-programming-in-scala-build-optional.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-functional-programming-in-scala-build-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-functional-programming-in-scala-build-plugin.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-functional-programming-in-scala-build-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-functional-programming-in-scala-build-pom.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-functional-programming-in-scala-build-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-functional-programming-in-scala-build-provided.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-functional-programming-in-scala-build-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-functional-programming-in-scala-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-functional-programming-in-scala-build-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-functional-programming-in-scala-build-runtime.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-functional-programming-in-scala-build-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-functional-programming-in-scala-build-scala-tool.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-functional-programming-in-scala-build-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-functional-programming-in-scala-build-sources.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-functional-programming-in-scala-build-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-functional-programming-in-scala-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-functional-programming-in-scala-build-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-functional-programming-in-scala-build-test.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-functional-programming-in-scala-build-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/chapter_five/Exercises.scala" afterPath="$PROJECT_DIR$/src/main/scala/chapter_five/Exercises.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/chapter_three/exercises/Functions.scala" afterPath="$PROJECT_DIR$/src/main/scala/chapter_three/exercises/Functions.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/chapter_fiveTests/ExerciseTests.scala" afterPath="$PROJECT_DIR$/src/test/scala/chapter_fiveTests/ExerciseTests.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/$global/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/$global/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/console/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/console/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" />
     </list>
     <ignored path="functional-programming-in-scala.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,28 +55,28 @@
       <file leaf-file-name="Functions.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/chapter_three/exercises/Functions.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1449">
-              <caret line="65" column="3" selection-start-line="65" selection-start-column="2" selection-end-line="65" selection-end-column="3" />
+            <state relative-caret-position="4165">
+              <caret line="221" column="41" selection-start-line="221" selection-start-column="41" selection-end-line="221" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Exercises.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Exercises.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/chapter_five/Exercises.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="653">
-              <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+            <state relative-caret-position="637">
+              <caret line="94" column="3" selection-start-line="94" selection-start-column="3" selection-end-line="94" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExerciseTests.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ExerciseTests.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/chapter_fiveTests/ExerciseTests.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="584">
-              <caret line="46" column="73" selection-start-line="46" selection-start-column="73" selection-end-line="46" selection-end-column="73" />
+            <state relative-caret-position="538">
+              <caret line="63" column="3" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -151,8 +124,8 @@
         <option value="$PROJECT_DIR$/src/test/scala/chapter_fourTests/ExerciseTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/chapter_four/Option.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/chapter_three/exercises/Functions.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/chapter_five/Exercises.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/chapter_fiveTests/ExerciseTests.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/chapter_five/Exercises.scala" />
       </list>
     </option>
   </component>
@@ -164,9 +137,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="2495" />
-    <option name="height" value="1416" />
+    <option name="height" value="1444" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -193,9 +166,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -406,6 +378,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -420,67 +393,7 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="ScalaTest.ExerciseTests.takeWhile using foldRight">
-    <configuration default="false" name="ExerciseTests.drop" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="functional-programming-in-scala" />
-      <setting name="path" value="chapter_fiveTests.ExerciseTests" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="drop" />
-      <setting name="testKind" value="Test name" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ExerciseTests.takeWhile" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="functional-programming-in-scala" />
-      <setting name="path" value="chapter_fiveTests.ExerciseTests" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="takeWhile" />
-      <setting name="testKind" value="Test name" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ExerciseTests" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="functional-programming-in-scala" />
-      <setting name="path" value="chapter_fiveTests.ExerciseTests" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ExerciseTests.forAll" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="functional-programming-in-scala" />
-      <setting name="path" value="chapter_fiveTests.ExerciseTests" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="forAll" />
-      <setting name="testKind" value="Test name" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.ExerciseTests.append">
     <configuration default="false" name="ExerciseTests.takeWhile using foldRight" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="functional-programming-in-scala" />
@@ -491,6 +404,66 @@
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
       <setting name="testName" value="takeWhile using foldRight" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExerciseTests.headOption" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="functional-programming-in-scala" />
+      <setting name="path" value="chapter_fiveTests.ExerciseTests" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="headOption" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExerciseTests.map" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="functional-programming-in-scala" />
+      <setting name="path" value="chapter_fiveTests.ExerciseTests" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="map" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExerciseTests.filter" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="functional-programming-in-scala" />
+      <setting name="path" value="chapter_fiveTests.ExerciseTests" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="filter" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExerciseTests.append" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="functional-programming-in-scala" />
+      <setting name="path" value="chapter_fiveTests.ExerciseTests" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="append" />
       <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <envs />
@@ -781,6 +754,9 @@
       <xQueryConfiguration workingDirectory="file://$PROJECT_DIR$" alternativeJrePathEnabled="false" contextItemEnabled="false" contextItemFromEditorEnabled="true" />
       <module name="" />
       <envs />
+      <variables>
+        <list />
+      </variables>
       <method />
     </configuration>
     <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
@@ -917,19 +893,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="ScalaTest.ExerciseTests.drop" />
-      <item index="1" class="java.lang.String" itemvalue="ScalaTest.ExerciseTests.takeWhile" />
-      <item index="2" class="java.lang.String" itemvalue="ScalaTest.ExerciseTests" />
-      <item index="3" class="java.lang.String" itemvalue="ScalaTest.ExerciseTests.forAll" />
-      <item index="4" class="java.lang.String" itemvalue="ScalaTest.ExerciseTests.takeWhile using foldRight" />
+      <item index="0" class="java.lang.String" itemvalue="ScalaTest.ExerciseTests.takeWhile using foldRight" />
+      <item index="1" class="java.lang.String" itemvalue="ScalaTest.ExerciseTests.headOption" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.ExerciseTests.map" />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.ExerciseTests.filter" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.ExerciseTests.append" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.ExerciseTests.takeWhile using foldRight" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.ExerciseTests.forAll" />
-        <item index="2" class="java.lang.String" itemvalue="ScalaTest.ExerciseTests.takeWhile" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.ExerciseTests" />
-        <item index="4" class="java.lang.String" itemvalue="ScalaTest.ExerciseTests.drop" />
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.ExerciseTests.append" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.ExerciseTests.filter" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.ExerciseTests.map" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.ExerciseTests.headOption" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.ExerciseTests.takeWhile using foldRight" />
       </list>
     </recent_temporary>
   </component>
@@ -1096,24 +1072,38 @@
       <option name="project" value="LOCAL" />
       <updated>1487142607914</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="5.5&#10;">
+      <created>1487154248342</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1487154248343</updated>
+    </task>
+    <task id="LOCAL-00013" summary="5.6&#10;">
+      <created>1487167788492</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1487167788492</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExerciseTests_forAll - 2017.02.13 at 13h 43m 33s.xml">
-      <configuration name="ExerciseTests.forAll" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ExerciseTests_append - 2017.02.15 at 17h 15m 27s.xml">
+      <configuration name="ExerciseTests.append" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ExerciseTests_forAll - 2017.02.13 at 13h 43m 53s.xml">
-      <configuration name="ExerciseTests.forAll" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ExerciseTests_forAll - 2017.02.13 at 13h 44m 01s.xml">
-      <configuration name="ExerciseTests.forAll" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ExerciseTests_forAll - 2017.02.13 at 13h 45m 42s.xml">
-      <configuration name="ExerciseTests.forAll" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ExerciseTests_filter - 2017.02.15 at 16h 25m 34s.xml">
+      <configuration name="ExerciseTests.filter" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
     <history-entry file="ExerciseTests_forAll - 2017.02.15 at 05h 45m 35s.xml">
       <configuration name="ExerciseTests.forAll" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ExerciseTests_headOption - 2017.02.15 at 13h 38m 12s.xml">
+      <configuration name="ExerciseTests.headOption" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ExerciseTests_map - 2017.02.15 at 13h 56m 25s.xml">
+      <configuration name="ExerciseTests.map" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
     <history-entry file="ExerciseTests_takeWhile - 2017.02.13 at 13h 01m 30s.xml">
       <configuration name="ExerciseTests.takeWhile" configurationId="ScalaTestRunConfiguration" />
@@ -1135,7 +1125,7 @@
     <option name="totallyTimeSpent" value="36927000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="2495" height="1416" extended-state="6" />
+    <frame x="65" y="-4" width="2495" height="1444" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1145,7 +1135,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3263566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3263566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2482646" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1192,7 +1182,9 @@
     <MESSAGE value="Exercise 5.2 take&#10;" />
     <MESSAGE value="5.2&#10;" />
     <MESSAGE value="5.4&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.4&#10;" />
+    <MESSAGE value="5.5&#10;" />
+    <MESSAGE value="5.6&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.6&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1259,24 +1251,24 @@
     <entry file="file://$PROJECT_DIR$/src/test/scala/chapter_fourTests/ExerciseTest.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/chapter_three/exercises/Functions.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1449">
-          <caret line="65" column="3" selection-start-line="65" selection-start-column="2" selection-end-line="65" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/chapter_fiveTests/ExerciseTests.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="46" column="73" selection-start-line="46" selection-start-column="73" selection-end-line="46" selection-end-column="73" />
+        <state relative-caret-position="4165">
+          <caret line="221" column="41" selection-start-line="221" selection-start-column="41" selection-end-line="221" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/chapter_five/Exercises.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+        <state relative-caret-position="637">
+          <caret line="94" column="3" selection-start-line="94" selection-start-column="3" selection-end-line="94" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/chapter_fiveTests/ExerciseTests.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="63" column="3" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="3" />
           <folding />
         </state>
       </provider>

@@ -16,7 +16,6 @@ class Exercises {
  trait Stream[+A] {
 
 
-
   //Exercise 5.1 convert Stream to List
   def toList: List[A] = {
  @annotation.tailrec
@@ -79,9 +78,11 @@ class Exercises {
   //Exercise 5.7 map, filter , append and flatMap using foldRight
   def map[B](f: A => B): Stream[B] = foldRight(Empty: Stream[B])((x, y) => Stream.cons(f(x), y))
 
-  def filter(f:A => Boolean): Stream[A] = ???
+  def filter(f:A => Boolean): Stream[A] = foldRight(Empty: Stream[A])((x, y) => if(f(x)) Stream.cons(x, y) else y)
 
+  def append[B >: A](f: => Stream[B]): Stream[B] = foldRight(f)((x, y) => Stream.cons(x, y))
 
+  def flatMap[B](f:A => Stream[B]): Stream[B] = foldRight(Empty: Stream[B])((x, y) => f(x).append(y))
 }
 case object Empty extends Stream[Nothing]
 case class Cons[+A](h:() => A, t:() => Stream[A]) extends Stream[A]

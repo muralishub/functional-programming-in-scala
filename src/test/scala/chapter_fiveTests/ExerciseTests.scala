@@ -61,7 +61,17 @@ it("apply") {
     Stream(1, 2, 3, 4).filter(_ % 2 == 0).toList shouldBe List(2, 4)
   }
 
+  it("append") {
+    Stream(1, 2, 3).append(Stream(4)).toList shouldBe List(1, 2, 3, 4)
+  }
 
+  it("flatMap") {
+    Stream(1, 2, 3).flatMap(x => Stream(x, x)).toList shouldBe Stream(1, 1, 2, 2, 3, 3).toList
+  }
+
+  it("test") {
+    Stream(1, 2, 3,4).map(_ + 10).filter(_ % 2 == 0).map(println(_))
+  }
 
 }
 
