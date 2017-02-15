@@ -61,6 +61,9 @@ it("apply") {
     Stream(1, 2, 3, 4).filter(_ % 2 == 0).toList shouldBe List(2, 4)
   }
 
+  it("append") {
+    Stream(1, 2, 3).append(Stream(4)).toList shouldBe List(1, 2, 3, 4)
+  }
 
 
 }
