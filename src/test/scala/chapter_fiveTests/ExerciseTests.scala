@@ -42,9 +42,10 @@ it("apply") {
   }
 
   //Exercise 5.5 takewhile
-//  it("takeWhile using foldRight") {
-//    Stream(1, 2, 7).takeWhileUsingFoldRight(_ % 2 == 1) shouldBe Stream(1, 2)
-//  }
+  it("takeWhile using foldRight") {
+    Stream(3, 7, 2).takeWhileUsingFoldRight(_ % 2 == 1).toList shouldBe Stream(3, 7).toList
+    Stream(2).takeWhileUsingFoldRight(_ % 2 == 1).toList shouldBe Stream().toList
+  }
 
 }
 

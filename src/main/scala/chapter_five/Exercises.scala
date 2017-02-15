@@ -1,5 +1,6 @@
 package chapter_five
 
+
 class Exercises {
 
   //Book Example
@@ -68,12 +69,11 @@ class Exercises {
 
 
    //Exercise 5.5 foldRight to implement takeWhile , take while it mathces a predicate
- // def takeWhileUsingFoldRight(p: A => Boolean): Stream[A] = foldRight(Empty)((x, y) => if(p(x)) Stream.cons(x, y) else Empty)
+  def takeWhileUsingFoldRight(p: A => Boolean): Stream[A] = foldRight(Stream[A]())((x, y) => if(p(x)) Stream.cons(x,y) else y)
 
 
 
 }
-
 case object Empty extends Stream[Nothing]
 case class Cons[+A](h:() => A, t:() => Stream[A]) extends Stream[A]
 

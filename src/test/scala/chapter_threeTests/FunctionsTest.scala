@@ -1,21 +1,11 @@
-package chapter.threeTests
+package chapter_threeTests
 
-
-
-import chapter_three._
-import chapter_three.exercises._
-import chapter_three.samples._
-import org.scalatest.FunSpec
+import chapter_three.exercises.{Branch, Functions, Leaf}
+import chapter_three.samples.{Cons, List, Nil, RecursionAndGeneralization}
+import org.scalatest.{BeforeAndAfterEach, FunSpec}
 import org.scalatest.Matchers._
 
-import scala.collection.mutable.RedBlackTree
-
-/**
-  * Created by murali on 17/11/2016.
-  */
-class ExerciseTest extends FunSpec {
-
-
+class FunctionsTest extends FunSpec with BeforeAndAfterEach {
   describe("In Function") {
 
     it("tail function gets the tail from list") {
@@ -54,10 +44,10 @@ class ExerciseTest extends FunSpec {
       function.append(List(1, 2), List(4, 5, 6)) shouldBe List(1, 2, 4, 5, 6)
     }
 
-//    it("init function which returns List except last element, this doesnt work just shouows its difficult in this scenario") {
-//      val function = new Functions
-//      function.init(List(1, 2, 3, 4, 5)) shouldBe List(1, 2, 3, 4)
-//    }
+    //    it("init function which returns List except last element, this doesnt work just shouows its difficult in this scenario") {
+    //      val function = new Functions
+    //      function.init(List(1, 2, 3, 4, 5)) shouldBe List(1, 2, 3, 4)
+    //    }
 
     //Example 3.8
     it("what happens when you pass Nil and Cons themselves to foldRight") {
@@ -126,7 +116,7 @@ class ExerciseTest extends FunSpec {
       foo.foldLeftViafoldRight(List(1, 2, 3), 0)(_ + _) shouldBe 6
     }
 
-  //  Exercise 3.14 Implement append using foldRight
+    //  Exercise 3.14 Implement append using foldRight
     it("appped using foldRight") {
       val foo = new Functions
       foo.appendUsingfoldRight(List(1, 2), List(3, 4)) shouldBe List(1, 2, 3, 4)
@@ -144,7 +134,7 @@ class ExerciseTest extends FunSpec {
       foo.concat(List(List(1, 2), List(3,4))) shouldBe List(1, 2, 3, 4)
     }
 
-     //Exercise 3.16 Add 1 to all elemets in a list of integers
+    //Exercise 3.16 Add 1 to all elemets in a list of integers
     it("add one to all elements in a list non recursive") {
       val foo = new Functions
       foo.addOne(List(1, 2, 3)) shouldBe List(2, 3, 4)
@@ -166,7 +156,7 @@ class ExerciseTest extends FunSpec {
     it("modify each element of list") {
       val foo = new Functions
       foo.map(List(1, 2))(x => x + 1) shouldBe List(2, 3)
-      
+
     }
 
     //Exercise 3.19 Filter that satisfyies a condition
@@ -202,13 +192,13 @@ class ExerciseTest extends FunSpec {
       foo.zipWith(List(1, 2), List(3, 4))(_ * _) shouldBe List(3, 8)
     }
 
-   //Exercise 3.24 subsequence exists
+    //Exercise 3.24 subsequence exists
     it("has subSequence") {
       val foo = new Functions
       foo.hasSubsequence(List(1, 2, 3, 4), List(1, 2)) shouldBe true
     }
 
-   //Exercise 3.25 count no of nodes in a tree
+    //Exercise 3.25 count no of nodes in a tree
     it("size of nodes") {
       val foo = new Functions
       foo.size(Leaf(1)) shouldBe 1

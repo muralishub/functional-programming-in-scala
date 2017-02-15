@@ -2073,7 +2073,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 319ms :: artifacts dl 10ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 357ms :: artifacts dl 12ms[0m
 [0m[[0mdebug[0m] [0m	report for default#functional-programming-in-scala-build;0.1-SNAPSHOT compile produced in /home/casper/TestProjects/functional-programming-in-scala/project/target/resolution-cache/reports/default-functional-programming-in-scala-build-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#functional-programming-in-scala-build;0.1-SNAPSHOT runtime produced in /home/casper/TestProjects/functional-programming-in-scala/project/target/resolution-cache/reports/default-functional-programming-in-scala-build-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#functional-programming-in-scala-build;0.1-SNAPSHOT test produced in /home/casper/TestProjects/functional-programming-in-scala/project/target/resolution-cache/reports/default-functional-programming-in-scala-build-test.xml[0m
@@ -2087,5 +2087,5 @@
 [0m[[0mdebug[0m] [0m	report for default#functional-programming-in-scala-build;0.1-SNAPSHOT docs produced in /home/casper/TestProjects/functional-programming-in-scala/project/target/resolution-cache/reports/default-functional-programming-in-scala-build-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#functional-programming-in-scala-build;0.1-SNAPSHOT pom produced in /home/casper/TestProjects/functional-programming-in-scala/project/target/resolution-cache/reports/default-functional-programming-in-scala-build-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#functional-programming-in-scala-build;0.1-SNAPSHOT scala-tool produced in /home/casper/TestProjects/functional-programming-in-scala/project/target/resolution-cache/reports/default-functional-programming-in-scala-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (319ms resolve - 10ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (357ms resolve - 12ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

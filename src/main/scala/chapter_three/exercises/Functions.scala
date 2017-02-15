@@ -87,6 +87,7 @@ class Functions {
     loop(as, z, f)
   }
 
+  //Book Example
   def foldRight[A, B](as: List[A], z: B)(f: (A, B) => B): B =
     as match {
       case Nil => z
@@ -200,17 +201,22 @@ class Functions {
     }
   }
 
+
+  def startsWith[A](l: List[A], prefix: List[A]): Boolean = (l,prefix) match {
+    case (_,Nil) => true
+    case (Cons(h,t),Cons(h2,t2)) if h == h2 => startsWith(t, t2)
+    case _ => false
+  }
+
   //Exercise 3.24 has subSequence
   def hasSubsequence[A](sup: List[A], sub: List[A]): Boolean = {
     sup match {
-      case Nil => false
-      case Cons(x, xs) => sub match {
-        case Nil => false
-        case Cons(y, ys) => if (x == y) hasSubsequence(xs, ys) else hasSubsequence(xs, sub)
-      }
+      case Nil => sub == Nil
+      case _ if startsWith(sup, sub) => true
+      case Cons(h,t) => hasSubsequence(t, sub)
+
     }
   }
-
 
 
 //Exercise 3.25 size of leaf and branches
