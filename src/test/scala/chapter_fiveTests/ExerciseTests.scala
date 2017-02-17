@@ -68,10 +68,11 @@ it("apply") {
   it("flatMap") {
     Stream(1, 2, 3).flatMap(x => Stream(x, x)).toList shouldBe Stream(1, 1, 2, 2, 3, 3).toList
   }
-
-  it("test") {
-    Stream(1, 2, 3,4).map(_ + 10).filter(_ % 2 == 0).map(println(_))
+  //Exercise 5.9
+  it("from increment +1 starting fro n")  {
+    from(1).take(3).toList shouldBe List(1, 2, 3)
   }
+
 
 }
 

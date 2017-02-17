@@ -83,6 +83,27 @@ class Exercises {
   def append[B >: A](f: => Stream[B]): Stream[B] = foldRight(f)((x, y) => Stream.cons(x, y))
 
   def flatMap[B](f:A => Stream[B]): Stream[B] = foldRight(Empty: Stream[B])((x, y) => f(x).append(y))
+
+  //Exercise 5.8
+  def constant[A](a: A): Stream[A] = Stream.cons(a, constant(a))
+
+  //Exercise 5.8 more efficient solution as its one object refering it self
+  def constant1[A](a: A): Stream[A] = {
+    lazy val t: Stream[A] = Cons(() => a, () => t)
+    t
+  }
+
+  //Exercise 5.9 infinite stream of integers starting form n and n +1 n+2 and so on
+  def from(n: Int): Stream[Int] = Stream.cons(n, from(n + 1))
+
+  def from2(n: Int): Stream[Int] = {
+    lazy val t: Stream[Int] = Cons(() => n, () => t.map(x => x + 1))
+    t
+  }
+
+
+
+
 }
 case object Empty extends Stream[Nothing]
 case class Cons[+A](h:() => A, t:() => Stream[A]) extends Stream[A]
