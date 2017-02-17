@@ -120,7 +120,8 @@ trait Stream[+A] {
   }
 
   //Exercise 5.12 Write fibs, from, constant, and ones in terms of unfold
-  def fibsUsingUnfold: Stream[Int] = unfold((0, 1)) { case (x, y) => Some(x, (y, x + y)) }
+  def fibsUsingUnfold: Stream[Int] = unfold((0, 1)) { case (x, y) => Some(x, (y, x + y))}
+
 
 }
 
