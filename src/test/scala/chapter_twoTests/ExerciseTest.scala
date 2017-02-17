@@ -1,6 +1,7 @@
 package chapter.twoTests
 
-import chapter_two.exercises.{FibonacciNumber, IsSorted}
+import chapter_two.{FibonacciNumber, IsSorted}
+import chapter_two._
 import org.scalatest.FunSpec
 import org.scalatest.Matchers._
 /**

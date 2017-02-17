@@ -1,4 +1,4 @@
-package chapter_three.samples
+package chapter_three.book_samples
 
 sealed trait List[+A]
 

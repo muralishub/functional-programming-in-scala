@@ -1,7 +1,8 @@
-package chapter_threeTests
+package chapter_three
 
-import chapter_three.exercises.{Branch, Functions, Leaf}
-import chapter_three.samples.{Cons, List, Nil, RecursionAndGeneralization}
+import chapter_three.{Branch, Functions, Leaf}
+import chapter_three._
+import chapter_three.book_samples.{Cons, List, Nil, RecursionAndGeneralization}
 import org.scalatest.{BeforeAndAfterEach, FunSpec}
 import org.scalatest.Matchers._
 

@@ -1,6 +1,6 @@
 package chapter_four
 
-import chapter_three.samples.Cons
+import chapter_three.book_samples.Cons
 
 /**
   * Created by mraju on 25/01/17.

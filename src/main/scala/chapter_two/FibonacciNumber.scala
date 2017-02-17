@@ -1,4 +1,4 @@
-package chapter_two.exercises
+package chapter_two
 
 /**
   * Created by mraju on 08/11/16.

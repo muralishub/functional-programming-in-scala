@@ -1,7 +1,6 @@
-package chapter_three.exercises
+package chapter_three
 
-
-import chapter_three.samples._
+import chapter_three.book_samples._
 
 import scala.annotation.tailrec
 

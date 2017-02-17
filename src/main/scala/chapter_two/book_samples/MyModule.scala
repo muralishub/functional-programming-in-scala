@@ -1,4 +1,4 @@
-package chapter_two.samples
+package chapter_two.book_samples
 
 /**
   * Created by mraju on 09/11/16.

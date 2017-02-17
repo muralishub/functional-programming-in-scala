@@ -1,10 +1,9 @@
-package chapter_fourTests
+package chapter_four
 
 import org.scalatest.FunSpec
 import org.scalatest.Matchers._
-import chapter_four._
 
-class Samples extends FunSpec with Option[Int] {
+class OptionTests extends FunSpec with Option[Int] {
   it("Lift") {
     val absO: Option[Double] => Option[Double] = Option.lift(math.abs)
     println(absO(Some(math.abs(10.2))))
@@ -26,7 +25,6 @@ class Samples extends FunSpec with Option[Int] {
 
   }
 }
-
 class ExerciseTest extends FunSpec {
 
   //Exercise 4.3
@@ -41,4 +39,5 @@ class ExerciseTest extends FunSpec {
     Option.sequence[Int](List(Some(1), None)) shouldBe None
   }
 }
+
 

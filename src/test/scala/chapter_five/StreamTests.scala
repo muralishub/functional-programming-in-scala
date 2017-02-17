@@ -1,26 +1,25 @@
-package chapter_fiveTests
+package chapter_five
 
-import chapter_five.{Empty, Exercises,Stream}
 import org.scalatest.FunSpec
 import org.scalatest.Matchers._
 
-class ExerciseTests[A] extends FunSpec with Stream[A]{
+class StreamTests[A]  extends FunSpec with Stream[A]{
 
- it("cons") {
-   val s = Stream
-   s.cons(1, Stream(1, 2)) shouldBe Stream(1, 1, 2)
- }
+  it("cons") {
+    val s = Stream
+    s.cons(1, Stream(1, 2)).toList shouldBe Stream(1, 1, 2).toList
+  }
 
-it("apply") {
-  val s = Stream
-  s.apply(1, 2, 3) shouldBe Stream(1,2, 3)
-}
+  it("apply") {
+    val s = Stream
+    s.apply(1, 2, 3).toList shouldBe Stream(1,2, 3).toList
+  }
 
-//Exercise 5.1 convert stream to list
+  //Exercise 5.1 convert stream to list
   it("toList") {
     Stream(1, 2).toList shouldBe List(1, 2)
-    }
-//Exercise 5.2 take and drop
+  }
+  //Exercise 5.2 take and drop
   it("take") {
     Stream(1,2,3,4).take(2).toList shouldBe List(1, 2)
   }
@@ -73,6 +72,15 @@ it("apply") {
     from(1).take(3).toList shouldBe List(1, 2, 3)
   }
 
+  //Exercise 5.10
+  it("fibs") {
+    fibs.take(7).toList shouldBe List(0, 1, 1, 2, 3, 5, 8)
+  }
+
+  //Exercise 5.12
+  it("fibs using unfold") {
+    fibsUsingUnfold.take(7).toList shouldBe List(0, 1, 1, 2, 3, 5, 8)
+  }
 
 }
 
