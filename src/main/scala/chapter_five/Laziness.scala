@@ -122,6 +122,16 @@ trait Stream[+A] {
   //Exercise 5.12 Write fibs, from, constant, and ones in terms of unfold
   def fibsUsingUnfold: Stream[Int] = unfold((0, 1)) { case (x, y) => Some(x, (y, x + y))}
 
+  def fromUsingUnfold(n: Int): Stream[Int] = unfold(n)(x => Some(x, x + 1))
+
+
+  def constantUsingUnfold[A](n: A): Stream[A] = unfold(n)(x => Some(x, x))
+
+  def onesUsingUnfold: Stream[Int] = unfold(1)(x => Some(1, 1))
+
+  //Exercise 5.13 Write map, take, takeWhile, zipWith and zipAll
+
+  def map[B](f:A => B): Stream[B] = ???
 
 }
 

@@ -87,6 +87,22 @@ class StreamTests[A]  extends FunSpec with Stream[A]{
     fibsUsingUnfold.take(7).toList shouldBe List(0, 1, 1, 2, 3, 5, 8)
   }
 
+  it("from using unfold") {
+    fromUsingUnfold(1).take(5).toList shouldBe List(1, 2, 3, 4, 5)
+  }
+
+  it("constant using unfold") {
+    constantUsingUnfold(2).take(5).toList shouldBe List(2, 2, 2, 2, 2)
+  }
+
+  it("ones using unfold") {
+    onesUsingUnfold.take(2).toList shouldBe List(1, 1)
+  }
+
+  //Exercise 5.13
+  it("map") {
+    Stream(1, 2).map(x => x + 1).toList shouldBe List(2, 3)
+  }
 
 }
 
