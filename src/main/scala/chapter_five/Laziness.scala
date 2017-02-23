@@ -131,8 +131,15 @@ trait Stream[+A] {
 
   //Exercise 5.13 Write map, take, takeWhile, zipWith and zipAll
 
-  def map[B](f:A => B): Stream[B] = ???
+  def mapUsingUnfold[B](f:A => B): Stream[B] = unfold(this)({case Cons(x, y) => Some(f(x()), y()) case Empty => None })
 
+  def takeUsingUnfold(n: Int): Stream[A] = unfold(this)({
+    case Cons(x, y) if n > 1 => Some(x(), y().takeUsingUnfold(n - 1))
+    case Cons(x, y) => Some(x(), Empty)
+    case Empty => None
+  })
+
+  def takeWhileUsingUnfold(f: A => Boolean): Stream[A] = ???
 }
 
 

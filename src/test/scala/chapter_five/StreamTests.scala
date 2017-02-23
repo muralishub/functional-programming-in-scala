@@ -100,8 +100,16 @@ class StreamTests[A]  extends FunSpec with Stream[A]{
   }
 
   //Exercise 5.13
-  it("map") {
+  it("mapUsingUnfold") {
     Stream(1, 2).map(x => x + 1).toList shouldBe List(2, 3)
+  }
+  it("takeUsingUnfold") {
+    Stream(1, 2, 3).take(2).toList shouldBe List(1, 2)
+    Stream(1).take(2).toList shouldBe List(1)
+    Stream().take(3).toList shouldBe List()
+  }
+  it("takeWhileUsingUnfold"){
+    Stream(1, 2, 3).takeWhileUsingFoldRight(_ % 2 == 0).toList shouldBe List(2)
   }
 
 }
