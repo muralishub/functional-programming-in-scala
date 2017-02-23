@@ -69,8 +69,8 @@ trait Stream[+A] {
   def forAll(p: A => Boolean): Boolean = foldRight(true)((a, b) => p(a) && b)
 
 
-  //Exercise 5.5 foldRight to implement takeWhile , take while it mathces a predicate
-  def takeWhileUsingFoldRight(p: A => Boolean): Stream[A] = foldRight(Stream[A]())((x, y) => if (p(x)) Stream.cons(x, y) else y)
+  //Exercise 5.5 foldRight to implement takeWhile
+  def takeWhileUsingFoldRight(p: A => Boolean): Stream[A] = foldRight(Stream[A]())((x, y) => if (p(x)) Stream.cons(x, y) else Empty)
 
 
   //Exercise 5.6 HeadOption using foldRight
@@ -139,7 +139,17 @@ trait Stream[+A] {
     case Empty => None
   })
 
-  def takeWhileUsingUnfold(f: A => Boolean): Stream[A] = ???
+  def takeWhileUsingUnfold(f: A => Boolean): Stream[A] = unfold(this)({
+                                                         case Cons(x, y) if f(x()) => Some(x(), y().takeWhileUsingUnfold(f))
+                                                         case _ => None
+                                                          })
+
+//  def zipWith[A](s: Stream[A])(f: (A, A) => A): Stream[A] = unfold(this)({
+//                                            case Cons(x, y) => s match {
+//                                              case Cons(a, b) => Some(f(x(), a()), y()zipWith(b())(f))}})
+//
+//
+//
 }
 
 
