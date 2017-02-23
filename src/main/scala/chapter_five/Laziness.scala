@@ -140,16 +140,15 @@ trait Stream[+A] {
   })
 
   def takeWhileUsingUnfold(f: A => Boolean): Stream[A] = unfold(this)({
-                                                         case Cons(x, y) if f(x()) => Some(x(), y().takeWhileUsingUnfold(f))
+                                                         case Cons(x, y) if f(x()) => Some(x(), y())
                                                          case _ => None
                                                           })
 
-//  def zipWith[A](s: Stream[A])(f: (A, A) => A): Stream[A] = unfold(this)({
-//                                            case Cons(x, y) => s match {
-//                                              case Cons(a, b) => Some(f(x(), a()), y()zipWith(b())(f))}})
-//
-//
-//
+  def zipWith[B, C](bs: Stream[B])(f: (A, B) => C): Stream[C] = unfold(this, bs) {
+                                                                case (Cons(x, y), Cons(a, b)) =>  Some(f(x(), a()), (y(), b()))
+                                                                case _ => None
+  }
+
 }
 
 
