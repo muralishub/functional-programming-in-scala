@@ -5,9 +5,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_five/Cons$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_five/Cons$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_five/Cons.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_five/Cons.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_five/Empty$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_five/Empty$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_five/Empty.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_five/Empty.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_five/Stream$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_five/Stream$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_five/Stream.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_five/Stream.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/functional-programming-in-scala-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/functional-programming-in-scala-build.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/functional-programming-in-scala.iml" afterPath="$PROJECT_DIR$/.idea/modules/functional-programming-in-scala.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/chapter_five/Laziness.scala" afterPath="$PROJECT_DIR$/src/main/scala/chapter_five/Laziness.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/chapter_five/StreamTests.scala" afterPath="$PROJECT_DIR$/src/test/scala/chapter_five/StreamTests.scala" />
@@ -59,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Laziness.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Laziness.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/chapter_five/Laziness.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+            <state relative-caret-position="906">
+              <caret line="158" column="1" selection-start-line="158" selection-start-column="1" selection-end-line="158" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -72,8 +74,8 @@
       <file leaf-file-name="Functions.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/chapter_three/Functions.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="192" column="42" selection-start-line="192" selection-start-column="42" selection-end-line="192" selection-end-column="58" />
+            <state relative-caret-position="4600">
+              <caret line="202" column="0" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -82,18 +84,18 @@
       <file leaf-file-name="FunctionsTest.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/chapter_three/FunctionsTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5014">
-              <caret line="222" column="15" selection-start-line="222" selection-start-column="15" selection-end-line="222" selection-end-column="15" />
+            <state relative-caret-position="4301">
+              <caret line="191" column="13" selection-start-line="191" selection-start-column="13" selection-end-line="191" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StreamTests.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StreamTests.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/chapter_five/StreamTests.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1090">
-              <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+            <state relative-caret-position="768">
+              <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -151,8 +153,8 @@
         <option value="$PROJECT_DIR$/src/test/scala/chapter_three/FunctionsTest.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/chapter_twoTests/ExerciseTest.scala" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/test/scala/chapter_five/StreamTests.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/chapter_five/Laziness.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/chapter_five/StreamTests.scala" />
       </list>
     </option>
   </component>
@@ -164,9 +166,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="2495" />
-    <option name="height" value="1416" />
+    <option name="height" value="1444" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -193,8 +195,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -203,111 +206,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="functional-programming-in-scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="functional-programming-in-scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="functional-programming-in-scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="functional-programming-in-scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="functional-programming-in-scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="functional-programming-in-scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="functional-programming-in-scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="functional-programming-in-scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter_three" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Functions.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="functional-programming-in-scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="functional-programming-in-scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter_three" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -332,22 +232,7 @@
       <recent name="org.scalatest.FunSpec" />
     </key>
   </component>
-  <component name="RunManager" selected="ScalaTest.StreamTests.zipWithUsingUnfold">
-    <configuration default="false" name="StreamTests.map" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="functional-programming-in-scala" />
-      <setting name="path" value="chapter_five.StreamTests" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="map" />
-      <setting name="testKind" value="Test name" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.StreamTests.zipAll">
     <configuration default="false" name="StreamTests.mapUsingUnfold" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="functional-programming-in-scala" />
@@ -403,6 +288,21 @@
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
       <setting name="testName" value="zipWithUsingUnfold" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="StreamTests.zipAll" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="functional-programming-in-scala" />
+      <setting name="path" value="chapter_five.StreamTests" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="zipAll" />
       <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <envs />
@@ -832,24 +732,24 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="ScalaTest.StreamTests.map" />
-      <item index="1" class="java.lang.String" itemvalue="ScalaTest.StreamTests.mapUsingUnfold" />
-      <item index="2" class="java.lang.String" itemvalue="ScalaTest.StreamTests.takeUsingUnfold" />
-      <item index="3" class="java.lang.String" itemvalue="ScalaTest.StreamTests.takeWhileUsingUnfold" />
-      <item index="4" class="java.lang.String" itemvalue="ScalaTest.StreamTests.zipWithUsingUnfold" />
+      <item index="0" class="java.lang.String" itemvalue="ScalaTest.StreamTests.mapUsingUnfold" />
+      <item index="1" class="java.lang.String" itemvalue="ScalaTest.StreamTests.takeUsingUnfold" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.StreamTests.takeWhileUsingUnfold" />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.StreamTests.zipWithUsingUnfold" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.StreamTests.zipAll" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.StreamTests.zipWithUsingUnfold" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.StreamTests.takeWhileUsingUnfold" />
-        <item index="2" class="java.lang.String" itemvalue="ScalaTest.StreamTests.takeUsingUnfold" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.StreamTests.mapUsingUnfold" />
-        <item index="4" class="java.lang.String" itemvalue="ScalaTest.StreamTests.map" />
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.StreamTests.zipAll" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.StreamTests.takeUsingUnfold" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.StreamTests.takeWhileUsingUnfold" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.StreamTests.zipWithUsingUnfold" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.StreamTests.mapUsingUnfold" />
       </list>
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1485758804708" />
+    <option name="lastUpdateTimestamp" value="1488275125079" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -876,7 +776,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="1483594521951" />
+        <entry key="$PROJECT_DIR$" value="1485770556301" />
         <entry key="$USER_HOME$/casper/admin-portal" value="16113625665016" />
         <entry key="$USER_HOME$/casper/banterrank" value="1469101695842" />
         <entry key="$USER_HOME$/casper/bernardjason/drawing" value="1469544082000" />
@@ -1048,28 +948,17 @@
       <option name="project" value="LOCAL" />
       <updated>1487858931549</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Ecercise 5.13 &#10;">
+      <created>1488462935153</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1488462935153</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StreamTests_takeWhileUsingUnfold - 2017.02.24 at 09h 50m 57s.xml">
-      <configuration name="StreamTests.takeWhileUsingUnfold" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="StreamTests_takeWhileUsingUnfold - 2017.02.24 at 09h 51m 26s.xml">
-      <configuration name="StreamTests.takeWhileUsingUnfold" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="StreamTests_takeWhileUsingUnfold - 2017.02.24 at 10h 02m 25s.xml">
-      <configuration name="StreamTests.takeWhileUsingUnfold" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="StreamTests_takeWhileUsingUnfold - 2017.02.24 at 10h 03m 39s.xml">
-      <configuration name="StreamTests.takeWhileUsingUnfold" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="StreamTests_takeWhileUsingUnfold - 2017.02.24 at 10h 04m 24s.xml">
-      <configuration name="StreamTests.takeWhileUsingUnfold" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="StreamTests_takeWhileUsingUnfold - 2017.02.24 at 10h 19m 17s.xml">
-      <configuration name="StreamTests.takeWhileUsingUnfold" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="StreamTests_takeWhileUsingUnfold - 2017.02.24 at 10h 20m 06s.xml">
       <configuration name="StreamTests.takeWhileUsingUnfold" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -1079,7 +968,25 @@
     <history-entry file="StreamTests_takeWhileUsingUnfold - 2017.02.24 at 10h 20m 38s.xml">
       <configuration name="StreamTests.takeWhileUsingUnfold" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="StreamTests_takeWhileUsingUnfold - 2017.03.01 at 09h 49m 07s.xml">
+      <configuration name="StreamTests.takeWhileUsingUnfold" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="StreamTests_zipAll - 2017.03.06 at 13h 46m 55s.xml">
+      <configuration name="StreamTests.zipAll" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="StreamTests_zipAll - 2017.03.06 at 13h 47m 32s.xml">
+      <configuration name="StreamTests.zipAll" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
     <history-entry file="StreamTests_zipWithUsingUnfold - 2017.02.24 at 10h 30m 29s.xml">
+      <configuration name="StreamTests.zipWithUsingUnfold" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="StreamTests_zipWithUsingUnfold - 2017.03.01 at 09h 39m 12s.xml">
+      <configuration name="StreamTests.zipWithUsingUnfold" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="StreamTests_zipWithUsingUnfold - 2017.03.01 at 09h 39m 48s.xml">
+      <configuration name="StreamTests.zipWithUsingUnfold" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="StreamTests_zipWithUsingUnfold - 2017.03.01 at 09h 40m 19s.xml">
       <configuration name="StreamTests.zipWithUsingUnfold" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
@@ -1087,12 +994,12 @@
     <option name="totallyTimeSpent" value="43321000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="2495" height="1416" extended-state="6" />
+    <frame x="65" y="-4" width="2495" height="1444" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3263566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950923" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3263566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1102,7 +1009,6 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24785627" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1118,6 +1024,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="165" y="152" width="2295" height="1216" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1276,34 +1183,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/chapter_three/FunctionsTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/chapter_five/Laziness.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5014">
-          <caret line="222" column="15" selection-start-line="222" selection-start-column="15" selection-end-line="222" selection-end-column="15" />
+        <state relative-caret-position="906">
+          <caret line="158" column="1" selection-start-line="158" selection-start-column="1" selection-end-line="158" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/chapter_three/Functions.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="192" column="42" selection-start-line="192" selection-start-column="42" selection-end-line="192" selection-end-column="58" />
+        <state relative-caret-position="4600">
+          <caret line="202" column="0" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/chapter_three/FunctionsTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4301">
+          <caret line="191" column="13" selection-start-line="191" selection-start-column="13" selection-end-line="191" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/chapter_five/StreamTests.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1090">
-          <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/chapter_five/Laziness.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+        <state relative-caret-position="768">
+          <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
           <folding />
         </state>
       </provider>

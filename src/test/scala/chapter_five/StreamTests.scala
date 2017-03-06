@@ -114,7 +114,10 @@ class StreamTests[A]  extends FunSpec with Stream[A]{
 
   }
   it("zipWithUsingUnfold") {
-    Stream(1, 2).zipWith(Stream(3, 4))((x, y) => x + y).toList shouldBe List(4, 6)
+    Stream(1, 2, 3).zipWith(Stream(3, 4))((x, y) => x + y).toList shouldBe List(4, 6)
+  }
+  it("zipAll") {
+    Stream(1, 2, 3).zipAll(Stream(3, 4)).toList shouldBe List((Some(1), Some(3)), (Some(2), Some(4)), (Some(3), None))
   }
 
 
