@@ -156,6 +156,19 @@ trait Stream[+A] {
     case (Cons(a, b), Cons(x, y)) => Some((Some(a()), Some(x())), (b(), y()))
   }
 
+  //Exericse 5.14 For instance, Stream(1,2,3) startsWith Stream(1,2) would be true
+
+  def startsWith[A](s: Stream[A]): Boolean = (this, s) match {
+    case (Empty, Empty) => true
+    case (Cons(x, y), Empty) => true
+    case (Empty, Cons(a, b)) => false
+    case (Cons(x, y), Cons(a, b)) if(x() == a()) => y().startsWith(b())
+    case _ => false
+  }
+
+  //Exercise 5.15 tails using unfold
+  def tails: Stream[Stream[A]] = ???
+
 }
 
 

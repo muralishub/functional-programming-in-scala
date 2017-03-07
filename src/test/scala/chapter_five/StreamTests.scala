@@ -119,7 +119,15 @@ class StreamTests[A]  extends FunSpec with Stream[A]{
   it("zipAll") {
     Stream(1, 2, 3).zipAll(Stream(3, 4)).toList shouldBe List((Some(1), Some(3)), (Some(2), Some(4)), (Some(3), None))
   }
+  it("startsWith") {
+    Stream(1, 2, 3).startsWith(Stream(1, 2)) shouldBe true
+    Stream(1, 2, 3).startsWith(Stream(1, 2, 3, 4)) shouldBe false
+    Stream(1, 2, 3).startsWith(Stream(2, 3)) shouldBe false
+  }
 
+  it("tails") {
+    Stream(1,2,3).tails shouldBe Stream(Stream(1,2,3), Stream(2,3), Stream(3), Stream())
+  }
 
 }
 
