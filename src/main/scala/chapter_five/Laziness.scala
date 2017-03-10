@@ -162,12 +162,22 @@ trait Stream[+A] {
     case (Empty, Empty) => true
     case (Cons(x, y), Empty) => true
     case (Empty, Cons(a, b)) => false
-    case (Cons(x, y), Cons(a, b)) if(x() == a()) => y().startsWith(b())
+    case (Cons(x, y), Cons(a, b)) if x() == a() => y().startsWith(b())
     case _ => false
   }
 
   //Exercise 5.15 tails using unfold
-  def tails: Stream[Stream[A]] = ???
+  def tails: Stream[Stream[A]] = unfold(this) {
+    case Empty => None
+    case s => Some(s, s drop 1)
+  }.append(Stream(Empty))
+
+  def hasSubsequence[A](s: Stream[A]): Boolean =
+    tails exists (_ startsWith s)
+
+  //Exercise 5.16 scan right
+
+
 
 }
 
