@@ -176,7 +176,13 @@ trait Stream[+A] {
     tails exists (_ startsWith s)
 
   //Exercise 5.16 scan right
-
+   def scanRight[B](z: B)(f: (A, => B) => B): Stream[B] = {
+    foldRight((z, Stream(z)))((a, b) => {
+      lazy val b1 = b
+      val c = f(a, b._1)
+      (c, Stream.cons(c, b1._2))
+    })._2
+   }
 
 
 }

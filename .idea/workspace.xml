@@ -1,50 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2820a922-5111-4b5c-8858-4f06abfff5ee" name="Default" comment="Ecercise 5.13 &#10;">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_five/Cons$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_five/Cons.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_five/Empty$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_five/Empty.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_five/Stream$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_five/Stream.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_four/Either$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_four/Either$Age.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_four/Either$Errors$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_four/Either$Errors.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_four/Either$Name.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_four/Either$NewEither.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_four/Either$Person$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_four/Either$Person.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_four/Either$Success$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_four/Either$Success.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_four/Either.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_four/Left$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_four/Left.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_four/None$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_four/None.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_four/Option$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_four/Option.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_four/Right$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_four/Right.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_four/Some$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_four/Some.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/chapter_five/Laziness.scala" afterPath="$PROJECT_DIR$/src/main/scala/chapter_5/Laziness.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/chapter_four/Option.scala" afterPath="$PROJECT_DIR$/src/main/scala/chapter_4/Option.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/chapter_three/Functions.scala" afterPath="$PROJECT_DIR$/src/main/scala/chapter_3/Functions.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/chapter_three/book_samples/List.scala" afterPath="$PROJECT_DIR$/src/main/scala/chapter_3/book_samples/List.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/chapter_three/book_samples/RecursionAndGeneralization.scala" afterPath="$PROJECT_DIR$/src/main/scala/chapter_3/book_samples/RecursionAndGeneralization.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/chapter_two/Currying.scala" afterPath="$PROJECT_DIR$/src/main/scala/chapter_2/Currying.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/chapter_two/FibonacciNumber.scala" afterPath="$PROJECT_DIR$/src/main/scala/chapter_2/FibonacciNumber.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/chapter_two/IsSorted.scala" afterPath="$PROJECT_DIR$/src/main/scala/chapter_2/IsSorted.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/chapter_two/PolymorphicFunction.scala" afterPath="$PROJECT_DIR$/src/main/scala/chapter_2/PolymorphicFunction.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/chapter_two/book_samples/MyModule.scala" afterPath="$PROJECT_DIR$/src/main/scala/chapter_2/book_samples/MyModule.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/scala/chapter_five/StreamTests.scala" afterPath="$PROJECT_DIR$/src/test/scala/chapter_5/StreamTests.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/scala/chapter_four/OptionTests.scala" afterPath="$PROJECT_DIR$/src/test/scala/chapter_4/OptionTests.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/scala/chapter_three/FunctionsTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/chapter_3/FunctionsTest.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/scala/chapter_twoTests/ExerciseTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/chapter_2/ExerciseTest.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/chapter/twoTests/ExerciseTest.class" afterPath="$PROJECT_DIR$/target/scala-2.12/test-classes/chapter/twoTests/ExerciseTest.class" />
+    <list default="true" id="2820a922-5111-4b5c-8858-4f06abfff5ee" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/chapter_5/Laziness.scala" afterPath="$PROJECT_DIR$/src/main/scala/chapter_5/Laziness.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/chapter_5/StreamTests.scala" afterPath="$PROJECT_DIR$/src/test/scala/chapter_5/StreamTests.scala" />
     </list>
     <list id="56fe601d-ae5e-40a6-8bd3-e9ac61a04aa7" name="Rejected commit: Default" comment="5.9&#10;" />
     <ignored path="functional-programming-in-scala.iws" />
@@ -96,18 +56,18 @@
       <file leaf-file-name="Laziness.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/chapter_5/Laziness.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2004">
-              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+            <state relative-caret-position="336">
+              <caret line="185" column="0" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StreamTests.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StreamTests.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/chapter_5/StreamTests.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+            <state relative-caret-position="404">
+              <caret line="135" column="1" selection-start-line="135" selection-start-column="1" selection-end-line="135" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -153,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Functions.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Functions.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/chapter_3/Functions.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="223" column="21" selection-start-line="223" selection-start-column="21" selection-end-line="223" selection-end-column="21" />
+            <state relative-caret-position="546">
+              <caret line="245" column="55" selection-start-line="245" selection-start-column="55" selection-end-line="245" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -219,6 +179,8 @@
         <option value="$PROJECT_DIR$/src/test/scala/chapter_five/StreamTests.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/chapter_2/Currying.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/chapter_3/Functions.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/chapter_5/Laziness.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/chapter_5/StreamTests.scala" />
       </list>
     </option>
   </component>
@@ -259,7 +221,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -347,34 +308,12 @@
               <option name="myItemId" value="scala" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="functional-programming-in-scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="functional-programming-in-scala" />
+              <option name="myItemId" value="chapter_5" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter_3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Functions.scala" />
+              <option name="myItemId" value="Laziness.scala" />
               <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -398,52 +337,11 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="scala" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter_3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book_samples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="functional-programming-in-scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="functional-programming-in-scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter_3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book_samples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="List.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -470,7 +368,7 @@
       <recent name="org.scalatest.FunSpec" />
     </key>
   </component>
-  <component name="RunManager" selected="ScalaTest.StreamTests">
+  <component name="RunManager" selected="ScalaTest.StreamTests.scanRight">
     <configuration default="false" name="StreamTests.takeUsingUnfold" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="functional-programming-in-scala" />
@@ -496,21 +394,6 @@
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
       <setting name="testName" value="takeWhileUsingUnfold" />
-      <setting name="testKind" value="Test name" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="StreamTests.zipWithUsingUnfold" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="functional-programming-in-scala" />
-      <setting name="path" value="chapter_five.StreamTests" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="zipWithUsingUnfold" />
       <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <envs />
@@ -542,6 +425,21 @@
       <setting name="searchForTest" value="Across module dependencies" />
       <setting name="testName" value="" />
       <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="StreamTests.scanRight" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="functional-programming-in-scala" />
+      <setting name="path" value="chapter_5.StreamTests" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="scanRight" />
+      <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <envs />
       <method />
@@ -767,6 +665,7 @@
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
+      <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
@@ -975,6 +874,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -1008,17 +913,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="ScalaTest.StreamTests.takeUsingUnfold" />
       <item index="1" class="java.lang.String" itemvalue="ScalaTest.StreamTests.takeWhileUsingUnfold" />
-      <item index="2" class="java.lang.String" itemvalue="ScalaTest.StreamTests.zipWithUsingUnfold" />
-      <item index="3" class="java.lang.String" itemvalue="ScalaTest.StreamTests.zipAll" />
-      <item index="4" class="java.lang.String" itemvalue="ScalaTest.StreamTests" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.StreamTests.zipAll" />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.StreamTests" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.StreamTests.scanRight" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.StreamTests" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.StreamTests.zipAll" />
-        <item index="2" class="java.lang.String" itemvalue="ScalaTest.StreamTests.takeUsingUnfold" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.StreamTests.takeWhileUsingUnfold" />
-        <item index="4" class="java.lang.String" itemvalue="ScalaTest.StreamTests.zipWithUsingUnfold" />
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.StreamTests.scanRight" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.StreamTests" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.StreamTests.zipAll" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.StreamTests.takeUsingUnfold" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.StreamTests.takeWhileUsingUnfold" />
       </list>
     </recent_temporary>
   </component>
@@ -1109,7 +1014,8 @@
       <workItem from="1487136814782" duration="3622000" />
       <workItem from="1487223115561" duration="1557000" />
       <workItem from="1487310630657" duration="4837000" />
-      <workItem from="1490162073118" duration="1701000" />
+      <workItem from="1490162073118" duration="1769000" />
+      <workItem from="1490248471434" duration="3129000" />
     </task>
     <task id="LOCAL-00001" summary="chapter 3">
       <created>1484932690026</created>
@@ -1230,15 +1136,22 @@
       <option name="project" value="LOCAL" />
       <updated>1488462935153</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Exercise 5.15&#10;">
+      <created>1490163825110</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1490163825110</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StreamTests - 2017.03.22 at 06h 07m 18s.xml">
-      <configuration name="StreamTests" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="StreamTests_scanRight - 2017.03.23 at 06h 47m 14s.xml">
+      <configuration name="StreamTests.scanRight" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="StreamTests_takeWhileUsingUnfold - 2017.02.24 at 10h 20m 20s.xml">
-      <configuration name="StreamTests.takeWhileUsingUnfold" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="StreamTests_scanRight - 2017.03.23 at 07h 06m 02s.xml">
+      <configuration name="StreamTests.scanRight" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
     <history-entry file="StreamTests_takeWhileUsingUnfold - 2017.02.24 at 10h 20m 38s.xml">
       <configuration name="StreamTests.takeWhileUsingUnfold" configurationId="ScalaTestRunConfiguration" />
@@ -1266,7 +1179,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45022000" />
+    <option name="totallyTimeSpent" value="48219000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="54" width="1615" height="1026" extended-state="6" />
@@ -1280,7 +1193,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32444444" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32444444" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1333,7 +1246,8 @@
     <MESSAGE value="gitignore file&#10;" />
     <MESSAGE value="Ecercise 5.13&#10;" />
     <MESSAGE value="Ecercise 5.13 &#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ecercise 5.13 &#10;" />
+    <MESSAGE value="Exercise 5.15&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercise 5.15&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1401,22 +1315,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/chapter_3/FunctionsTest.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/chapter_5/Laziness.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2004">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/chapter_5/StreamTests.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/chapter_2/Currying.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1451,8 +1349,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/chapter_3/Functions.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="223" column="21" selection-start-line="223" selection-start-column="21" selection-end-line="223" selection-end-column="21" />
+        <state relative-caret-position="546">
+          <caret line="245" column="55" selection-start-line="245" selection-start-column="55" selection-end-line="245" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/chapter_5/Laziness.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="185" column="0" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/chapter_5/StreamTests.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="135" column="1" selection-start-line="135" selection-start-column="1" selection-end-line="135" selection-end-column="1" />
           <folding />
         </state>
       </provider>

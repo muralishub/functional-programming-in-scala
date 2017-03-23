@@ -129,6 +129,10 @@ class StreamTests[A]  extends FunSpec with Stream[A]{
       Stream(1,2,3).tails.toList.size shouldBe Stream(Stream(1,2,3), Stream(2,3), Stream(3), Stream()).toList.size
   }
 
+  it("scanRight") {
+    Stream(1, 2, 3).scanRight(0)(_ + _).toList shouldBe List(6, 5,  3, 0)
+  }
+
 }
 
 
