@@ -130,6 +130,16 @@ class StreamTests[A]  extends FunSpec with Stream[A]{
   }
 
   it("scanRight") {
+
+    val name = Some("murali")
+    val result = for {
+      n <- name
+    }
+    yield n
+
+    println(result)
+
+
     Stream(1, 2, 3).scanRight(0)(_ + _).toList shouldBe List(6, 5,  3, 0)
   }
 
