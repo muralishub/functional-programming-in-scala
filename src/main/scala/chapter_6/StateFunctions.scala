@@ -38,6 +38,26 @@ class StateFunctions {
 
   def ints(count: Int)(rng: RNG): (List[Int], RNG) = ???
 
+//  {
+//
+//    def list: (List[Int], RNG) = {
+//     val r = (rng.nextInt._1 :: Nil, rng.nextInt._2)
+//      r
+//    }
+//
+//
+//
+//
+//    def loop(count: Int, result: (List[Int], RNG), inc: Int) = {
+//      if(count > inc) {
+//       loop(count, result :: result._2.nextInt, inc + 1)
+//
+//      }
+//    }
+//
+//    loop(count, list, 0)
+  }
+
 
 
 
