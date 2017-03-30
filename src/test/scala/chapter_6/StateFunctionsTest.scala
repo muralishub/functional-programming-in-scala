@@ -38,5 +38,11 @@ class StateFunctionsTest extends FunSpec {
     functions.double3(SimpleRNG(0))._1 should be (0.0, 0.0, 0.0)
   }
 
+  it("Ints") {
+    val functions = new StateFunctions
+    functions.ints(0)(SimpleRNG(1))._1 shouldBe List()
+    functions.ints(3)(SimpleRNG(1))._1.length shouldBe 3
+  }
+
 
 }

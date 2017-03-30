@@ -1,11 +1,13 @@
 package chapter_6
 
+import scala.annotation.tailrec
+
 class StateFunctions {
 
   //Exercise 6.1 use nextInt to generate random no between 0 and Int.max
   def nonNegativeInt(rng: RNG): (Int, RNG) = {
     val (i, r) = rng.nextInt
-    (if(i < 0) -i else i, r)
+    (if (i < 0) -i else i, r)
   }
 
 
@@ -17,50 +19,36 @@ class StateFunctions {
 
 
   //Exercise 6.3
-  def intDouble(rng: RNG): ((Int,Double), RNG) = {
+  def intDouble(rng: RNG): ((Int, Double), RNG) = {
     val (i, r) = rng.nextInt
     val (d, r2) = double(r)
-     ((i, d), r2)
+    ((i, d), r2)
   }
 
-  def doubleInt(rng: RNG): ((Double,Int), RNG) = {
+  def doubleInt(rng: RNG): ((Double, Int), RNG) = {
     val (i, r) = rng.nextInt
     val (d, r2) = double(r)
     ((d, i), r2)
   }
 
-  def double3(rng: RNG): ((Double,Double,Double), RNG) = {
+  def double3(rng: RNG): ((Double, Double, Double), RNG) = {
     val (d, r) = double(rng)
     val (d1, r1) = double(r)
     val (d2, r2) = double(r1)
     ((d, d1, d2), r2)
   }
 
-  def ints(count: Int)(rng: RNG): (List[Int], RNG) = ???
-
-//  {
-//
-//    def list: (List[Int], RNG) = {
-//     val r = (rng.nextInt._1 :: Nil, rng.nextInt._2)
-//      r
-//    }
-//
-//
-//
-//
-//    def loop(count: Int, result: (List[Int], RNG), inc: Int) = {
-//      if(count > inc) {
-//       loop(count, result :: result._2.nextInt, inc + 1)
-//
-//      }
-//    }
-//
-//    loop(count, list, 0)
+  def ints(count: Int)(rng: RNG): (List[Int], RNG) = {
+  @tailrec
+    def loop(count: Int, xl: List[Int], rng: RNG): (List[Int], RNG) = {
+     if(count == 0) (xl, rng)
+     else {
+       val (i, r) = rng.nextInt
+       loop(count - 1, i :: xl, rng)
+     }
+    }
+    loop(count, List(), rng)
   }
-
-
-
-
 }
 
 
