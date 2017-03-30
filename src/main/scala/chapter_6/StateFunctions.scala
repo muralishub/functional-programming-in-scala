@@ -4,8 +4,10 @@ import scala.annotation.tailrec
 
 class StateFunctions {
 
+
+
   //Exercise 6.1 use nextInt to generate random no between 0 and Int.max
-  def nonNegativeInt(rng: RNG): (Int, RNG) = {
+  def nonNegativeInt(rng: RNG): Rand[Int] = {
     val (i, r) = rng.nextInt
     (if (i < 0) -i else i, r)
   }
@@ -38,6 +40,7 @@ class StateFunctions {
     ((d, d1, d2), r2)
   }
 
+  //Exercise 6.4
   def ints(count: Int)(rng: RNG): (List[Int], RNG) = {
   @tailrec
     def loop(count: Int, xl: List[Int], rng: RNG): (List[Int], RNG) = {
@@ -49,7 +52,19 @@ class StateFunctions {
     }
     loop(count, List(), rng)
   }
+
+
+//Book text
+  type Rand[+A] = RNG => (A, RNG)  // these are called state actions or state transitions
+
+
+
+
+
 }
+
+
+
 
 
 trait RNG {
@@ -58,6 +73,9 @@ trait RNG {
 
 //Book Example
 case class SimpleRNG(seed: Long) extends RNG {
+
+
+
 
   def nextInt: (Int, RNG) = {
     val newSeed = (seed * 0x5DEECE66DL + 0xBL) & 0xFFFFFFFFFFFFL
