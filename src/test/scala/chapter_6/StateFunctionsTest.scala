@@ -19,8 +19,7 @@ class StateFunctionsTest extends FunSpec {
   it("double") {
     val functions = new StateFunctions
     functions.double(SimpleRNG(5000))._1 should be >= 0.0
-    functions.double(SimpleRNG(5000))._1 should be <= 1.0
-    functions.double(SimpleRNG(99999))._1 should be < 1.0
+    functions.double(SimpleRNG(99999))._1 should be > 1.0
   }
 
   it("int and Double") {
@@ -43,6 +42,12 @@ class StateFunctionsTest extends FunSpec {
     functions.ints(0)(SimpleRNG(1))._1 shouldBe List()
     functions.ints(3)(SimpleRNG(1))._1.length shouldBe 3
   }
+
+  it("double using map") {
+    val functions = new StateFunctions
+    functions.doubleUsingMap(SimpleRNG(0))._1 should be (1.0)
+  }
+
 
 
 }

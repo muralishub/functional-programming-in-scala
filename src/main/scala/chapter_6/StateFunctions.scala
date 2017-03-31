@@ -4,10 +4,26 @@ import scala.annotation.tailrec
 
 class StateFunctions {
 
+  type Rand[+A] = RNG => (A, RNG)  // these are called state actions or state transitions
+
+
+  val int: Rand[Int] = _.nextInt
+
+//BookExample
+  def unit[A](a: A): Rand[A] = rnd => (a, rnd)
+//BookExample
+  def map[A,B](s: Rand[A])(f: A => B): Rand[B] = {
+    rng => {
+      val (a, rng2) = s(rng)
+      (f(a), rng2)
+    }
+  }
+//BookExample
+  def nonNegativeEven: Rand[Int] = map(nonNegativeInt)(i => i % 2)
 
 
   //Exercise 6.1 use nextInt to generate random no between 0 and Int.max
-  def nonNegativeInt(rng: RNG): Rand[Int] = {
+  def nonNegativeInt(rng: RNG): (Int, RNG) = {
     val (i, r) = rng.nextInt
     (if (i < 0) -i else i, r)
   }
@@ -16,7 +32,7 @@ class StateFunctions {
   //Exercise 6.2 generate double between 0 and 1
   def double(rng: RNG): (Double, RNG) = {
     val (i, r) = nonNegativeInt(rng)
-    (i / Int.MaxValue, r)
+    (i / Int.MaxValue.toDouble + 1, r)
   }
 
 
@@ -53,11 +69,60 @@ class StateFunctions {
     loop(count, List(), rng)
   }
 
+  //Exercise 6.5 use map to reimplement Double
+  def doubleUsingMap: Rand[Double] = map(nonNegativeInt)(i => i / Int.MaxValue.toDouble + 1)
 
-//Book text
-  type Rand[+A] = RNG => (A, RNG)  // these are called state actions or state transitions
+  //Exercise 6.6 implement an other version of map where it also works for binary operations that can handle IntDouble etc
+  def map2[A,B,C](ra: Rand[A], rb: Rand[B])(f: (A, B) => C): Rand[C]  = {
+    rng => {
+      val (a, rng2) = ra(rng)
+      val  (b, rng3) = rb(rng2)
+      (f(a, b), rng3)
+    }
+  }
+//Book Example
+  def both[A,B](ra: Rand[A], rb: Rand[B]): Rand[(A,B)] =
+    map2(ra, rb)((_, _))
+//Book Example
+  val randIntDouble: Rand[(Int, Double)] =
+    both(int, double)
+//Book Example
+  val randDoubleInt: Rand[(Double, Int)] =
+    both(double, int)
 
 
+  //Exercise 6.7 ok its working for combinations above what about list
+  def sequence[A](fs: List[Rand[A]]): Rand[List[A]] = {
+    fs.foldRight(unit(List[A]()))((a, b) => map2(a, b)(_ :: _))
+  }
+
+  //Book Examples
+  def nonNegativeLessThanBook(n: Int): Rand[Int] = { rng =>
+    val (i, rng2) = nonNegativeInt(rng)
+    val mod = i % n
+    if (i + (n-1) - mod >= 0)
+      (mod, rng2)
+    else nonNegativeLessThanBook(n)(rng)
+  }
+
+  //Exercise 6.8 implement flatMap and use it to implement nonNegativeLessThan
+  def flatMap[A,B](f: Rand[A])(g: A => Rand[B]): Rand[B] = {
+    rng => {
+     val (i, r) = f(rng)
+        g(i)(r)
+    }
+  }
+
+  //Exercise 6.9 reimplement map and map2 interms of flatMap
+
+
+
+
+  def nonNegativeLessThan(n: Int): Rand[Int] = flatMap(nonNegativeInt) { i =>
+    val mod = i % n
+    if (i + (n-1) - mod >= 0) unit(mod) else nonNegativeLessThan(n)
+
+  }
 
 
 
