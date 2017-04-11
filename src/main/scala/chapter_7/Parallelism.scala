@@ -12,17 +12,17 @@ class Parallelism {
   def sum(ints: Seq[Int]): Int = ints.foldLeft(0)((a, b) => (a + b))
 
 //Book Example
-  def sum(ints: IndexedSeq[Int]): Int = {
-    if (ints.length <= 1)
-      ints.headOption getOrElse 0
-    else {
-      val (l, r) = ints.splitAt(ints.length / 2)
-      sum(l) + sum(r)
-    }
+//  def sum(ints: IndexedSeq[Int]): Int = {
+//    if (ints.length <= 1)
+//      ints.headOption getOrElse 0
+//    else {
+//      val (l, r) = ints.splitAt(ints.length / 2)
+//      sum(l) + sum(r)
+//    }
+//
+//  }
 
-  }
 
-  def unit[A](a: => A): Par[A] = ???
 
   def get[A](a: Par[A]): A = ???
 
@@ -30,14 +30,13 @@ class Parallelism {
 
 //Book Example
 //undating sum with our custom data type
-    def sumPar(ints: IndexedSeq[Int]): Int = {
+    def sum(ints: IndexedSeq[Int]): Int = {
       if (ints.length <= 1)
         ints.headOption getOrElse 0
       else {
         val (l, r) = ints.splitAt(ints.length / 2)
-        val sumL: Par[Int] = unit(sumPar(l))
-        val sumR: Par[Int] = unit(sumPar(r))
-
+        val sumL: Par[Int] = unit(sum(l))
+        val sumR: Par[Int] = unit(sum(r))
         get(sumL) + get(sumR)
       }
     }
@@ -46,12 +45,25 @@ class Parallelism {
 //Book Example
       def sumPar1(ints: IndexedSeq[Int]): Par[Int] = {
         if(ints.length <= 1)
-         unit(ints.headOption getOrElse 0)
+         Par.unit(ints.headOption getOrElse 0)
         else{
           val (l, r) = ints.splitAt(ints.length / 2)
           Par.map2(sumPar1(l), sumPar1(r))(_ + _)
         }
       }
+
+  def sumWithFork(ints: IndexedSeq[Int]): Par[Int] = {
+    if(ints.length <= 1)
+      Par.unit(ints.headOption getOrElse 0)
+    else {
+      val (l, r) = ints.splitAt(ints.length / 2)
+      Par.map2(Par.fork(Par.unit(l)), Par.fork(Par.unit(r)))
+    }
+  }
+
+
+
+
 }
 
 
@@ -64,6 +76,17 @@ class Parallelism {
   object Par{
     // Exercise 7.1
     def map2[A, B, C](a: Par[A], b: Par[B])(f: (A, B) => C): Par[C] = ???
+
+
+    def unit[A](a: => A): Par[A] = ???
+
+    //lazy version of unit
+    def lazyUnit[A](a: => A): Par[A] = fork(unit(a))
+
+
+    //the given par should run in a separate logical thread
+    def fork[A](a: => Par[A]): Par[A] = ???
+
   }
 
 
