@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c320093-8cc3-456e-8de9-e9caed40bba7" name="Default" comment="Exercise 7.1">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/Sandbox.scala" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Sandbox.scala" afterPath="$PROJECT_DIR$/src/main/scala/Sandbox.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -840,7 +841,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8245000" />
+    <option name="totallyTimeSpent" value="8605000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="2497" height="1452" extended-state="6" />
