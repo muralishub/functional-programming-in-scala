@@ -1,6 +1,6 @@
 class Sandbox extends App{
 
-println("E")
+println("A")
 
 
 }
