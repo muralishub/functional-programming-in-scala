@@ -30,36 +30,36 @@ class Parallelism {
 
 //Book Example
 //undating sum with our custom data type
-    def sum(ints: IndexedSeq[Int]): Int = {
-      if (ints.length <= 1)
-        ints.headOption getOrElse 0
-      else {
-        val (l, r) = ints.splitAt(ints.length / 2)
-        val sumL: Par[Int] = unit(sum(l))
-        val sumR: Par[Int] = unit(sum(r))
-        get(sumL) + get(sumR)
-      }
-    }
+//    def sum(ints: IndexedSeq[Int]): Int = {
+//      if (ints.length <= 1)
+//        ints.headOption getOrElse 0
+//      else {
+//        val (l, r) = ints.splitAt(ints.length / 2)
+//        val sumL: Par[Int] = unit(sum(l))
+//        val sumR: Par[Int] = unit(sum(r))
+//        get(sumL) + get(sumR)
+//      }
+//    }
 //if we inline above sumL and sumR we get same result but its no longer parallel because only after sum is executed get is executed
 //this can be  solved by avoiding get and instead return Par[Int] instead of Int
-//Book Example
-      def sumPar1(ints: IndexedSeq[Int]): Par[Int] = {
-        if(ints.length <= 1)
-         Par.unit(ints.headOption getOrElse 0)
-        else{
-          val (l, r) = ints.splitAt(ints.length / 2)
-          Par.map2(sumPar1(l), sumPar1(r))(_ + _)
-        }
-      }
+////Book Example
+//      def sumPar1(ints: IndexedSeq[Int]): Par[Int] = {
+//        if(ints.length <= 1)
+//         Par.unit(ints.headOption getOrElse 0)
+//        else{
+//          val (l, r) = ints.splitAt(ints.length / 2)
+//          Par.map2(sumPar1(l), sumPar1(r))(_ + _)
+//        }
+//      }
 
-  def sumWithFork(ints: IndexedSeq[Int]): Par[Int] = {
-    if(ints.length <= 1)
-      Par.unit(ints.headOption getOrElse 0)
-    else {
-      val (l, r) = ints.splitAt(ints.length / 2)
-      Par.map2(Par.fork(Par.unit(l)), Par.fork(Par.unit(r)))
-    }
-  }
+//  def sumWithFork(ints: IndexedSeq[Int]): Par[Int] = {
+//    if(ints.length <= 1)
+//      Par.unit(ints.headOption getOrElse 0)
+//    else {
+//      val (l, r) = ints.splitAt(ints.length / 2)
+//      Par.map2(Par.fork(Par.unit(l)), Par.fork(Par.unit(r)))
+//    }
+//  }
 
 
 

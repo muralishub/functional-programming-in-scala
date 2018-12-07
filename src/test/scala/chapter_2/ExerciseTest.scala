@@ -15,6 +15,7 @@ class ExerciseTest extends FunSpec{
       model.fib(2) shouldBe 1
       model.fib(8) shouldBe 21
     }
+
   }
 
 

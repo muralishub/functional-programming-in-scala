@@ -6,7 +6,7 @@ package chapter_2
 class Currying {
 
   //Exercise: 2.3 converts a function f of two arguments into a function of one argument that partially applies f
-  def curry[A, B, C](f: (A, B) => C): A => (B => C) =
+  def curry[A, B, C](f: (A, B) => C): A => B => C =
     (a: A) => (b: B) => f(a, b)
 
   //Exercise: 2.4 reverses the transformation of a curry
@@ -18,3 +18,7 @@ class Currying {
     (a: A) => (f(g(a)))
 
 }
+
+
+
+
